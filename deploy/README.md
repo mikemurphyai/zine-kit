@@ -47,8 +47,17 @@ scp deploy/site/index.html "$VPS_HOST":/docker/zine/site/index.html
 If you change the video or its poster, copy and upload `media/` too:
 
 ```sh
-cp media/how-to-make-a-zine.mp4 media/how-to-make-a-zine.jpg deploy/site/media/
+cp media/how-to-make-a-zine-v2.mp4 media/how-to-make-a-zine.jpg deploy/site/media/
 scp deploy/site/media/* "$VPS_HOST":/docker/zine/site/media/
+```
+
+Encode the video as H.264 High profile, level 4.0, so that iPhones play it.
+Many iPhones do not start a file marked level 5.0 or higher, even at 1080p.
+From a source render, for example:
+
+```sh
+ffmpeg -i video.mp4 -c:v libx264 -profile:v high -level:v 4.0 -pix_fmt yuv420p \
+  -crf 20 -g 60 -c:a aac -b:a 160k -movflags +faststart media/how-to-make-a-zine-v2.mp4
 ```
 
 Media files are cached for up to 7 days at Cloudflare. To replace the video

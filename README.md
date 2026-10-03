@@ -21,7 +21,7 @@ Instructions for folding a zine make a good test subject. The task is physical a
 | File | What it is |
 |---|---|
 | `zine-kit.html` | **The kit.** A self-contained page where you fill in 8 zine pages, preview the print sheet, and print it. It includes the fold-and-cut instructions written in STE. |
-| `media/` | The how-to video (`how-to-make-a-zine.mp4`, 1 min 34 s, narrated in STE) and its poster image. The page plays it above the task cards. It does not print. |
+| `media/` | The how-to video (`how-to-make-a-zine-v2.mp4`, 1 min 34 s, narrated in STE) and its poster image. The page plays it above the task cards. It does not print. |
 | `deploy/` | Docker Compose file, nginx config, the deployed copy of the page (`site/index.html` and `site/media/`), and a README with update steps for the hosted site. |
 | `README.md` | This file. |
 

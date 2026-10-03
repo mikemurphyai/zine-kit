@@ -5,7 +5,7 @@ The how-to video and its poster image are licensed under
 
 This applies to:
 
-- `media/how-to-make-a-zine.mp4` and `media/how-to-make-a-zine.jpg`
+- `media/how-to-make-a-zine-v2.mp4` and `media/how-to-make-a-zine.jpg`
 - `deploy/site/media/` (the deployed copies)
 - the rendered video and its audio in `videos/how-to-make-a-zine/assets/`
 
