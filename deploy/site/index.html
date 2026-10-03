@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+</head>
+<body>
+<title>One-Sheet Zine Kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&family=Courier+Prime:wght@400;700&family=IBM+Plex+Mono:wght@400;600&family=Permanent+Marker&family=Public+Sans:wght@400;600;700&display=swap">
+<style>
+/* Layout: chalk workbench in the Creative Tools family. Top bar, serif hero, then page editor (left) beside a sticky US Letter sheet (right), STE task cards below. Single light look by design. Prints as one landscape sheet. */
+:root {
+  --bg: #f3f0e9;
+  --surface: #fdfaf4;
+  --field: #ffffff;
+  --ink: #17221d;
+  --muted: #5a655f;
+  --line: #ddd8cd;
+  --accent: #e2703f;
+  --accent-ink: #b8501f;
+  --accent-soft: #fbe6da;
+  --glow: #d5e3d6;
+  --on-dark: #ffffff;
+  --caution: #7f5600;
+  --caution-bg: #fbf0d2;
+  --caution-line: #e2bb5c;
+  --sheet-paper: #ffffff;
+  --sheet-ink: #111111;
+  --sheet-muted: #6a6a6a;
+  --sheet-guide: #b4b4b4;
+  --sheet-cut: #e2703f;
+  --f-display: "Newsreader", "Iowan Old Style", Georgia, serif;
+  --f-body: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  --radius: 14px;
+  --shadow: 0 1px 0 rgba(23, 34, 29, .03), 0 14px 34px -20px rgba(23, 34, 29, .28);
+  color-scheme: light;
+}
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  background: radial-gradient(900px 640px at 100% -8%, var(--glow), transparent 62%), var(--bg);
+  color: var(--ink); font-family: var(--f-body); font-size: 15px; line-height: 1.55;
+}
+.wrap { max-width: 1240px; margin: 0 auto; padding-inline: 24px; padding-block: 0 80px; display: grid; gap: 44px; }
+
+/* Top bar */
+.topbar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 10px 16px; padding-block: 26px 22px; border-bottom: 1px solid var(--line); }
+.brand { display: inline-flex; align-items: center; gap: 12px; font-weight: 700; font-size: 17px; letter-spacing: -.01em; }
+.brand svg { width: 30px; height: 30px; flex: none; }
+.label { font-size: 12px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+.credit { color: var(--muted); }
+.credit a { color: var(--ink); text-decoration: underline; text-decoration-color: var(--accent); text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.credit a:hover { color: var(--accent-ink); }
+.credit a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+/* Hero */
+.hero { display: grid; gap: 18px; padding-top: 28px; }
+.eyebrow { margin: 0; font-size: 12.5px; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); }
+h1 { margin: 0; font-family: var(--f-display); font-weight: 600; font-size: clamp(2.7rem, 6.6vw, 5.4rem); line-height: .98; letter-spacing: -.025em; text-wrap: balance; }
+h1 em { font-style: italic; font-weight: 500; color: var(--accent); }
+.lede { max-width: 58ch; color: var(--muted); margin: 0; font-size: 1.15rem; line-height: 1.6; }
+
+/* Bench */
+.bench { display: grid; grid-template-columns: minmax(0, 390px) minmax(0, 1fr); gap: 32px; align-items: start; }
+.editor { display: grid; gap: 12px; min-width: 0; }
+.preview { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 18px); display: grid; gap: 14px; min-width: 0; }
+@media (max-width: 900px) {
+  .bench { grid-template-columns: 1fr; }
+  .preview { position: static; order: -1; }
+}
+
+.editor-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; justify-content: space-between; }
+h2 { font-family: var(--f-display); font-weight: 600; font-size: 1.75rem; line-height: 1.1; letter-spacing: -.015em; margin: 0; }
+.btns { display: flex; gap: 8px; flex-wrap: wrap; }
+button, .file-btn { font: 600 13px/1 var(--f-body); border-radius: 10px; padding: 9px 13px; cursor: pointer; border: 1px solid var(--line); background: var(--field); color: var(--ink); transition: border-color .15s, background .15s; }
+button:hover, .file-btn:hover { border-color: var(--ink); }
+button.dark { background: var(--ink); border-color: var(--ink); color: var(--on-dark); }
+button[data-armed] { background: var(--accent); border-color: var(--accent); color: var(--on-dark); }
+button:focus-visible, .file-btn:focus-within { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.banner { margin: 0; padding: 11px 14px; border-radius: 12px; background: var(--accent-soft); font-size: 13.5px; }
+.status { margin: 0; font-size: 13px; color: var(--muted); }
+
+.pg { border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow); padding: 14px 16px 16px; margin: 0; display: grid; gap: 6px; min-width: 0; transition: border-color .15s; }
+.pg.active { border-color: var(--accent); }
+.pg legend { font-size: 11.5px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); padding: 0 6px; margin-left: -6px; }
+.pg legend b { color: var(--ink); }
+.pg label:not(.file-btn) { font-size: 12.5px; font-weight: 600; color: var(--muted); }
+.pg input[type="text"], .pg textarea { width: 100%; font: 15px/1.45 var(--f-body); color: var(--ink); background: var(--field); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; transition: border-color .15s, box-shadow .15s; }
+.pg input[type="text"]:focus, .pg textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.pg textarea { resize: vertical; min-height: 4.6em; }
+.img-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: 4px; }
+.img-row .thumb { width: 36px; height: 36px; object-fit: cover; border-radius: 6px; border: 1px solid var(--line); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.warn { margin: 2px 0 0; font-size: 13px; color: var(--caution); background: var(--caution-bg); border-left: 3px solid var(--caution-line); padding: 7px 10px; border-radius: 0 8px 8px 0; }
+
+/* Sheet caption + legend */
+.sheet-caption, .legend { display: flex; flex-wrap: wrap; gap: 6px 18px; justify-content: space-between; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.legend span { display: inline-flex; gap: 8px; align-items: center; }
+.legend i { display: inline-block; width: 26px; border-top: 2px dashed var(--sheet-guide); }
+.legend i.cut-key { border-top-color: var(--sheet-cut); }
+
+/* The sheet: always paper-coloured */
+.sheet { position: relative; width: 100%; aspect-ratio: 11 / 8.5; background: var(--sheet-paper); color: var(--sheet-ink); container-type: inline-size; display: grid; grid-template-columns: repeat(4, 1fr); grid-template-rows: repeat(2, 1fr); box-shadow: 0 1px 2px rgba(23,34,29,.08), 0 22px 44px -22px rgba(23,34,29,.38); border-radius: 3px; overflow: hidden; }
+.panel { position: relative; min-width: 0; min-height: 0; overflow: hidden; cursor: pointer; }
+.panel:not(:nth-child(4n)) { border-right: .14cqw dashed var(--sheet-guide); }
+.panel:nth-child(-n+4) { border-bottom: .14cqw dashed var(--sheet-guide); }
+.panel.active { box-shadow: inset 0 0 0 .35cqw var(--sheet-cut); }
+.pi { position: absolute; inset: 0; padding: 2.7cqw 2.4cqw 3.2cqw; display: flex; flex-direction: column; gap: 1.1cqw; overflow: hidden; }
+.flip .pi { transform: rotate(180deg); }
+.pt { margin: 0; font-size: 2.05cqw; line-height: 1.12; font-weight: 700; text-wrap: balance; overflow-wrap: anywhere; }
+.cover .pt { font-size: 3.3cqw; line-height: 1.02; }
+.pimg { display: block; max-width: 100%; max-height: 48%; object-fit: contain; align-self: center; min-height: 0; }
+.pb { margin: 0; font-size: 1.2cqw; line-height: 1.42; white-space: pre-wrap; overflow-wrap: anywhere; }
+.pn { position: absolute; bottom: 1.2cqw; right: 1.6cqw; font-family: var(--f-mono); font-size: .95cqw; color: var(--sheet-muted); letter-spacing: .04em; }
+.nonums .pn { display: none; }
+.blank-label { display: none; margin: auto; font-family: var(--f-mono); font-size: 1.1cqw; color: var(--sheet-guide); text-transform: uppercase; letter-spacing: .08em; text-align: center; }
+.blank .blank-label { display: block; }
+.cut { position: absolute; left: 25%; right: 25%; top: 50%; border-top: .24cqw dashed var(--sheet-cut); pointer-events: none; }
+.cut::before { content: "\2702"; position: absolute; left: -.6cqw; top: -1.75cqw; font-size: 2cqw; line-height: 1; color: var(--sheet-cut); }
+
+/* Zine lettering styles */
+.z-type .pt, .z-type .pb { font-family: "Courier Prime", "Courier New", monospace; }
+.z-marker .pt { font-family: "Permanent Marker", "Marker Felt", "Comic Sans MS", cursive; font-weight: 400; }
+.z-marker .pb { font-family: "Courier Prime", "Courier New", monospace; }
+.z-serif .pt { font-family: var(--f-display); font-weight: 600; letter-spacing: -.01em; }
+.z-serif .pb { font-family: var(--f-display); font-weight: 400; }
+.z-sans .pt { font-family: var(--f-body); font-weight: 700; letter-spacing: -.015em; }
+.z-sans .pb { font-family: var(--f-body); font-weight: 400; }
+
+/* Controls under the sheet */
+.controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); padding: 16px 18px; min-width: 0; }
+.card h3 { margin: 0 0 12px; font-size: 11.5px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; color: var(--ink); }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; border: 0; padding: 0; margin: 0 0 12px; }
+.seg label { display: inline-flex; }
+.seg input { position: absolute; opacity: 0; pointer-events: none; }
+.seg span { padding: 7px 12px; border: 1px solid var(--line); border-radius: 999px; font-size: 13px; cursor: pointer; background: var(--field); }
+.seg input:checked + span { background: var(--ink); color: var(--on-dark); border-color: var(--ink); }
+.seg input:focus-visible + span { outline: 2px solid var(--accent); outline-offset: 2px; }
+.check { display: flex; gap: 9px; align-items: center; font-size: 14px; padding: 3px 0; cursor: pointer; }
+.check input { accent-color: var(--accent); width: 16px; height: 16px; }
+.specs { display: grid; grid-template-columns: auto 1fr; gap: 5px 16px; margin: 0 0 12px; font-size: 14px; }
+.specs dt { color: var(--muted); }
+.specs dd { margin: 0; font-family: var(--f-mono); font-size: 13px; font-variant-numeric: tabular-nums; }
+.card p { margin: 0; font-size: 13.5px; color: var(--muted); }
+kbd { font-family: var(--f-mono); font-size: 12px; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 0 4px; color: var(--ink); background: var(--field); }
+
+/* How-to: STE task cards */
+.howto { display: grid; gap: 18px; padding-top: 36px; border-top: 1px solid var(--line); }
+.howto-head { display: flex; flex-wrap: wrap; gap: 6px 16px; align-items: baseline; justify-content: space-between; }
+.howto-head p { margin: 0; font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.howto-video { margin: 0; display: grid; gap: 8px; max-width: 860px; }
+.howto-video video { display: block; width: 100%; aspect-ratio: 16 / 9; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
+.howto-video figcaption { font-size: 13px; color: var(--muted); }
+.tasks { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; align-items: start; }
+.task { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; }
+.task header { display: grid; gap: 2px; padding: 14px 18px 12px; border-bottom: 1px solid var(--line); }
+.task header span { font-size: 11.5px; font-weight: 700; letter-spacing: .16em; color: var(--accent-ink); }
+.task h3 { margin: 0; font-family: var(--f-display); font-size: 1.3rem; font-weight: 600; letter-spacing: -.01em; }
+.task ol { margin: 0; padding: 14px 18px 16px 42px; display: grid; gap: 6px; }
+.task li::marker { font-family: var(--f-mono); font-size: 13px; color: var(--muted); }
+.notice { margin: 0 18px 16px; padding: 10px 13px; border-radius: 10px; font-size: 14px; }
+.notice b { display: block; font-size: 11.5px; letter-spacing: .16em; }
+.notice.caution { background: var(--caution-bg); border: 1px solid var(--caution-line); }
+.notice.caution b { color: var(--caution); }
+.notice.note { background: var(--bg); border: 1px solid var(--line); }
+.notice.note b { color: var(--muted); }
+
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* Print: one landscape US Letter sheet, plus optional instructions */
+@page { size: 11in 8.5in; margin: 0; }
+@media print {
+  :root { padding: 0 !important; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  html, body { margin: 0; padding: 0; background: #fff; }
+  .wrap { display: block; max-width: none; padding: 0; }
+  .topbar, .hero, .editor, .sheet-caption, .legend, .controls { display: none !important; }
+  .bench { display: block; }
+  .preview { position: static; display: block; }
+  .sheet { width: 11in; height: 8.5in; aspect-ratio: auto; box-shadow: none; border-radius: 0; }
+  .panel { cursor: auto; }
+  .panel.active { box-shadow: none; }
+  .blank .blank-label { display: none; }
+  .sheet:not(.print-folds) .panel { border-color: transparent; }
+  .sheet:not(.print-cut) .cut { display: none; }
+  .howto { display: none; }
+  body.print-howto .howto { display: grid; break-before: page; padding: .5in; gap: 12px; border: 0; background: #fff; }
+  body.print-howto .tasks { grid-template-columns: repeat(3, 1fr); }
+  .howto-video { display: none !important; }
+  .task, .card { box-shadow: none; }
+  .task, .notice { break-inside: avoid; }
+}
+</style>
+
+<div class="wrap">
+  <div class="topbar">
+    <span class="brand">
+      <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 7.5 16 5v22L4 24.5z" fill="#e2703f"/><path d="M28 7.5 16 5v22l12-2.5z" fill="#e2703f" opacity=".55"/><path d="M16 5v22" stroke="#17221d" stroke-width="1.6"/></svg>
+      One-Sheet Zine Kit
+    </span>
+    <span class="label credit">Handcrafted by <a href="https://mikemurphy.ai/" target="_blank" rel="noopener">Mike Murphy AI</a></span>
+  </div>
+
+  <header class="hero">
+    <p class="eyebrow">One sheet · One cut · Eight pages</p>
+    <h1>Fold a whole book from <em>one sheet of paper.</em></h1>
+    <p class="lede">Type your 8 pages. The sheet puts each page in the correct panel and turns the top row upside down for you. Print it, cut once, and fold.</p>
+  </header>
+
+  <section class="bench">
+    <div class="editor">
+      <div class="editor-head">
+        <h2>Your pages</h2>
+        <div class="btns">
+          <button type="button" id="btn-example">Load example</button>
+          <button type="button" id="btn-clear">Clear all</button>
+        </div>
+      </div>
+      <p class="banner" id="example-banner" hidden>These pages show an example zine about STE rules. Replace the text with your own. To draw by hand, leave a page empty.</p>
+      <p class="status" id="status" hidden></p>
+      <div id="pages" class="editor" style="gap:12px"></div>
+    </div>
+
+    <div class="preview">
+      <div class="sheet-caption"><span>US Letter · 11 × 8.5 in · landscape</span><span>Top row prints upside down</span></div>
+      <div class="sheet z-serif print-cut" id="sheet" aria-label="Print preview of the zine sheet"></div>
+      <div class="legend"><span><i></i>Fold line</span><span><i class="cut-key"></i>Cut line</span><span>Page: 2.75 × 4.25 in (70 × 108 mm)</span></div>
+
+      <div class="controls">
+        <div class="card">
+          <h3>Lettering</h3>
+          <fieldset class="seg" id="style-seg">
+            <legend class="vh">Lettering style</legend>
+            <label><input type="radio" name="zstyle" id="zs-type" value="type"><span>Typewriter</span></label>
+            <label><input type="radio" name="zstyle" id="zs-marker" value="marker"><span>Marker</span></label>
+            <label><input type="radio" name="zstyle" id="zs-serif" value="serif"><span>Serif</span></label>
+            <label><input type="radio" name="zstyle" id="zs-sans" value="sans"><span>Sans</span></label>
+          </fieldset>
+          <label class="check"><input type="checkbox" id="opt-nums"> Show page numbers</label>
+          <label class="check"><input type="checkbox" id="opt-cut"> Print the cut line</label>
+          <label class="check"><input type="checkbox" id="opt-folds"> Print the fold lines</label>
+          <label class="check"><input type="checkbox" id="opt-howto"> Print the instructions on a second sheet</label>
+        </div>
+        <div class="card">
+          <h3>Print settings</h3>
+          <dl class="specs">
+            <dt>Paper</dt><dd>US Letter</dd>
+            <dt>Orientation</dt><dd>Landscape</dd>
+            <dt>Scale</dt><dd>100% (Actual size)</dd>
+            <dt>Margins</dt><dd>None</dd>
+          </dl>
+          <p>Press <kbd>⌘</kbd> <kbd>P</kbd> (Mac) or <kbd>Ctrl</kbd> <kbd>P</kbd> (Windows). Only the sheet prints. Most printers do not print to the edge, so keep your content away from the edges.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="howto" id="howto">
+    <div class="howto-head">
+      <h2>Fold and cut the zine</h2>
+      <p>Written in ASD-STE100 Simplified Technical English</p>
+    </div>
+    <figure class="howto-video">
+      <video controls preload="none" playsinline poster="media/how-to-make-a-zine.jpg">
+        <source src="media/how-to-make-a-zine.mp4" type="video/mp4">
+      </video>
+      <figcaption>Watch the procedure (1 min 34 s, with sound). The task cards below give the same steps.</figcaption>
+    </figure>
+    <div class="tasks">
+      <article class="task">
+        <header><span>TASK 1</span><h3>Make the fold lines</h3></header>
+        <ol>
+          <li>Put the sheet flat, with the printed side up.</li>
+          <li>Turn the sheet so that the long edges are at the top and the bottom.</li>
+          <li>Fold the bottom edge up to the top edge.</li>
+          <li>Push your thumbnail along the fold.</li>
+          <li>Open the sheet.</li>
+          <li>Fold the left edge to the right edge.</li>
+          <li>Fold the sheet in half again. Put the folded edge on the open edges.</li>
+          <li>Push your thumbnail along each fold.</li>
+          <li>Open the sheet fully.</li>
+          <li>Make sure that you have 8 equal panels, in 2 rows of 4.</li>
+        </ol>
+      </article>
+      <article class="task">
+        <header><span>TASK 2</span><h3>Cut the slot</h3></header>
+        <ol>
+          <li>Fold the sheet so that the left edge touches the right edge.</li>
+          <li>Hold the sheet with the folded edge on the left.</li>
+        </ol>
+        <p class="notice caution"><b>CAUTION</b>Do not cut past the first vertical fold line. If the cut is too long, the zine will come apart.</p>
+        <ol start="3">
+          <li>Cut along the horizontal fold line from the folded edge.</li>
+          <li>Stop the cut at the first vertical fold line. The cut is 2.75 in (70 mm) long.</li>
+          <li>Open the sheet.</li>
+          <li>Make sure that the slot is on the cut line between the 2 center panels of each row.</li>
+        </ol>
+      </article>
+      <article class="task">
+        <header><span>TASK 3</span><h3>Fold the zine</h3></header>
+        <ol>
+          <li>Fold the top row back, behind the bottom row.</li>
+          <li>Make sure that you can see the front cover and pages 6, 7, and 8.</li>
+          <li>Hold the left end and the right end of the sheet.</li>
+          <li>Push the two ends slowly toward the center. The slot opens into a diamond shape.</li>
+          <li>Continue to push until the sheet makes a "+" shape.</li>
+          <li>Fold the 4 arms together to close the zine like a book.</li>
+          <li>Put the front cover on the outer side.</li>
+          <li>Push along the spine to make the folds flat.</li>
+          <li>Make sure that the pages are in the sequence 1 to 8.</li>
+        </ol>
+        <p class="notice note"><b>NOTE</b>Use only one side of the sheet. The other side is on the inner side of the zine. To make more copies, copy the flat sheet before you cut it.</p>
+      </article>
+    </div>
+  </section>
+</div>
+
+<script>
+(function () {
+  var ORDER = [5, 4, 3, 2, 6, 7, 8, 1];
+  var ROLE = { 1: 'Front cover', 8: 'Back cover' };
+  var KEY = 'one-sheet-zine-kit-v1';
+  var EXAMPLE = [
+    { title: 'Write It Simple', body: 'A pocket guide to ASD-STE100 Simplified Technical English' },
+    { title: 'Rule 1: One instruction per sentence', body: 'Wrong:\nOpen the panel and remove the filter.\n\nRight:\nOpen the panel.\nRemove the filter.' },
+    { title: 'Rule 2: Keep it short', body: 'Procedures: 20 words maximum in a sentence.\n\nDescriptions: 25 words maximum in a sentence.' },
+    { title: 'Rule 3: Use the active voice', body: 'Wrong:\nThe valve must be closed.\n\nRight:\nClose the valve.' },
+    { title: 'Rule 4: One word, one meaning', body: 'Use "open," not "unfold."\nUse "make sure," not "ensure."\nUse "fold line," not "crease."' },
+    { title: 'Rule 5: Warnings come first', body: 'Put the warning before the step.\nGive the command first.\nGive the reason second.' },
+    { title: 'Rule 6: Start with a verb', body: 'Cut.\nFold.\nPush.\nOpen.\nShare.' },
+    { title: 'Made from one sheet', body: 'US Letter paper\n8.5 in × 11 in\n8 pages. 1 cut.\n\nCopy it. Share it.' }
+  ];
+  function examplePages() { return EXAMPLE.map(function (p) { return { title: p.title, body: p.body, img: '' }; }); }
+  function blankPages() { var a = []; for (var i = 0; i < 8; i++) a.push({ title: '', body: '', img: '' }); return a; }
+
+  var state = { pages: examplePages(), style: 'serif', nums: true, printCut: true, printFolds: false, printHowto: false, isExample: true };
+  try {
+    var saved = JSON.parse(localStorage.getItem(KEY));
+    if (saved && Array.isArray(saved.pages) && saved.pages.length === 8) state = Object.assign(state, saved);
+    if (state.style === 'clean') state.style = 'sans';
+    if (['type', 'marker', 'serif', 'sans'].indexOf(state.style) < 0) state.style = 'serif';
+  } catch (e) {}
+
+  var sheet = document.getElementById('sheet');
+  var pagesEl = document.getElementById('pages');
+  var statusEl = document.getElementById('status');
+  var bannerEl = document.getElementById('example-banner');
+  var panels = {}, fields = {};
+
+  // Build the sheet panels in print order
+  ORDER.forEach(function (n, i) {
+    var panel = document.createElement('div');
+    panel.className = 'panel' + (i < 4 ? ' flip' : '') + (n === 1 ? ' cover' : '');
+    panel.dataset.page = n;
+    panel.innerHTML = '<div class="pi"><h4 class="pt"></h4><img class="pimg" alt="" hidden><p class="pb"></p><span class="blank-label">Page ' + n + '<br>draw here</span><span class="pn">' + (n === 1 ? 'FRONT' : n === 8 ? 'BACK' : n) + '</span></div>';
+    panel.addEventListener('click', function () { var f = document.getElementById('t' + n); if (f) f.focus(); });
+    sheet.appendChild(panel);
+    panels[n] = panel;
+  });
+  var cut = document.createElement('div'); cut.className = 'cut'; cut.setAttribute('aria-hidden', 'true'); sheet.appendChild(cut);
+
+  // Build the form in reading order
+  for (var n = 1; n <= 8; n++) {
+    var fs = document.createElement('fieldset');
+    fs.className = 'pg'; fs.dataset.page = n;
+    fs.innerHTML =
+      '<legend><b>Page ' + n + '</b>' + (ROLE[n] ? ' · ' + ROLE[n] : '') + '</legend>' +
+      '<label for="t' + n + '">Heading</label><input type="text" id="t' + n + '" autocomplete="off">' +
+      '<label for="b' + n + '">Text</label><textarea id="b' + n + '" rows="3"></textarea>' +
+      '<div class="img-row"><label class="file-btn" for="i' + n + '">Add image<input type="file" id="i' + n + '" accept="image/*" class="vh"></label>' +
+      '<img class="thumb" alt="Image for page ' + n + '" hidden><button type="button" class="rm" hidden>Remove image</button></div>' +
+      '<p class="warn" hidden>The content is too long for this page. Make the text shorter or use a smaller image.</p>';
+    pagesEl.appendChild(fs);
+    fields[n] = fs;
+    wire(n, fs);
+  }
+
+  function wire(n, fs) {
+    var t = fs.querySelector('#t' + n), b = fs.querySelector('#b' + n), f = fs.querySelector('#i' + n), rm = fs.querySelector('.rm');
+    t.addEventListener('input', function () { state.pages[n - 1].title = t.value; edited(n); });
+    b.addEventListener('input', function () { state.pages[n - 1].body = b.value; edited(n); });
+    f.addEventListener('change', function () {
+      var file = f.files && f.files[0]; if (!file) return;
+      shrink(file).then(function (url) { state.pages[n - 1].img = url; edited(n); f.value = ''; })
+        .catch(function () { showStatus('This image did not open. Try a JPG or PNG file.'); });
+    });
+    rm.addEventListener('click', function () { state.pages[n - 1].img = ''; edited(n); });
+    fs.addEventListener('focusin', function () { setActive(n); });
+    fs.addEventListener('focusout', function () { setActive(null); });
+  }
+
+  function setActive(n) {
+    Object.keys(panels).forEach(function (k) {
+      var on = String(k) === String(n);
+      panels[k].classList.toggle('active', on);
+      fields[k].classList.toggle('active', on);
+    });
+  }
+
+  function edited(n) {
+    if (state.isExample) { state.isExample = false; bannerEl.hidden = true; }
+    renderPage(n); checkOverflow(n); save();
+  }
+
+  function renderPage(n) {
+    var p = state.pages[n - 1], panel = panels[n], fs = fields[n];
+    panel.querySelector('.pt').textContent = p.title;
+    panel.querySelector('.pb').textContent = p.body;
+    var img = panel.querySelector('.pimg'), thumb = fs.querySelector('.thumb'), rm = fs.querySelector('.rm');
+    if (p.img) { img.src = p.img; thumb.src = p.img; } else { img.removeAttribute('src'); thumb.removeAttribute('src'); }
+    img.hidden = thumb.hidden = rm.hidden = !p.img;
+    panel.querySelector('.pt').hidden = !p.title;
+    panel.querySelector('.pb').hidden = !p.body;
+    panel.classList.toggle('blank', !p.title && !p.body && !p.img);
+  }
+
+  function checkOverflow(n) {
+    var pi = panels[n].querySelector('.pi');
+    fields[n].querySelector('.warn').hidden = !(pi.scrollHeight > pi.clientHeight + 1);
+  }
+  function checkAll() { for (var n = 1; n <= 8; n++) checkOverflow(n); }
+
+  function fillForm() {
+    for (var n = 1; n <= 8; n++) {
+      fields[n].querySelector('#t' + n).value = state.pages[n - 1].title || '';
+      fields[n].querySelector('#b' + n).value = state.pages[n - 1].body || '';
+      renderPage(n);
+    }
+    bannerEl.hidden = !state.isExample;
+    requestAnimationFrame(checkAll);
+  }
+
+  // Options
+  var optNums = document.getElementById('opt-nums'), optCut = document.getElementById('opt-cut'),
+      optFolds = document.getElementById('opt-folds'), optHowto = document.getElementById('opt-howto');
+  function applyOptions() {
+    sheet.classList.remove('z-type', 'z-marker', 'z-serif', 'z-sans');
+    sheet.classList.add('z-' + state.style);
+    sheet.classList.toggle('nonums', !state.nums);
+    sheet.classList.toggle('print-cut', state.printCut);
+    sheet.classList.toggle('print-folds', state.printFolds);
+    document.body.classList.toggle('print-howto', state.printHowto);
+    var r = document.getElementById('zs-' + state.style); if (r) r.checked = true;
+    optNums.checked = state.nums; optCut.checked = state.printCut; optFolds.checked = state.printFolds; optHowto.checked = state.printHowto;
+  }
+  document.querySelectorAll('input[name="zstyle"]').forEach(function (r) {
+    r.addEventListener('change', function () { state.style = r.value; applyOptions(); requestAnimationFrame(checkAll); save(); });
+  });
+  optNums.addEventListener('change', function () { state.nums = optNums.checked; applyOptions(); save(); });
+  optCut.addEventListener('change', function () { state.printCut = optCut.checked; applyOptions(); save(); });
+  optFolds.addEventListener('change', function () { state.printFolds = optFolds.checked; applyOptions(); save(); });
+  optHowto.addEventListener('change', function () { state.printHowto = optHowto.checked; applyOptions(); save(); });
+
+  // Two-step buttons, since the viewer does not show confirm dialogs
+  function twoStep(btn, armedLabel, action) {
+    var label = btn.textContent, timer;
+    function disarm() { delete btn.dataset.armed; btn.textContent = label; clearTimeout(timer); }
+    btn.addEventListener('click', function () {
+      if (btn.dataset.armed) { disarm(); action(); return; }
+      btn.dataset.armed = '1'; btn.textContent = armedLabel;
+      timer = setTimeout(disarm, 4000);
+    });
+    btn.addEventListener('blur', disarm);
+  }
+  twoStep(document.getElementById('btn-clear'), 'Click again to clear', function () {
+    state.pages = blankPages(); state.isExample = false; fillForm(); save(); showStatus('All 8 pages are clear.');
+  });
+  twoStep(document.getElementById('btn-example'), 'Click again to replace', function () {
+    state.pages = examplePages(); state.isExample = true; fillForm(); save(); showStatus('');
+  });
+
+  // Images: scale down so they stay small enough to save
+  function shrink(file) {
+    return new Promise(function (resolve, reject) {
+      var reader = new FileReader();
+      reader.onerror = reject;
+      reader.onload = function () {
+        var im = new Image();
+        im.onerror = reject;
+        im.onload = function () {
+          var k = Math.min(1, 1000 / Math.max(im.width, im.height));
+          var w = Math.round(im.width * k), h = Math.round(im.height * k);
+          var c = document.createElement('canvas'); c.width = w; c.height = h;
+          var x = c.getContext('2d'); x.fillStyle = '#fff'; x.fillRect(0, 0, w, h); x.drawImage(im, 0, 0, w, h);
+          resolve(c.toDataURL('image/jpeg', 0.86));
+        };
+        im.src = reader.result;
+      };
+      reader.readAsDataURL(file);
+    });
+  }
+
+  function showStatus(msg) { statusEl.textContent = msg; statusEl.hidden = !msg; }
+
+  var saveTimer;
+  function save() {
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(function () {
+      try { localStorage.setItem(KEY, JSON.stringify(state)); }
+      catch (e) {
+        try {
+          var lite = Object.assign({}, state, { pages: state.pages.map(function (p) { return { title: p.title, body: p.body, img: '' }; }) });
+          localStorage.setItem(KEY, JSON.stringify(lite));
+          showStatus('Your text is saved in this browser. The images are too large to save. If you reload the page, add the images again.');
+        } catch (e2) {}
+      }
+    }, 300);
+  }
+
+  applyOptions();
+  fillForm();
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(checkAll);
+  if (window.ResizeObserver) new ResizeObserver(function () { checkAll(); }).observe(sheet);
+})();
+</script>
+
+</body>
+</html>

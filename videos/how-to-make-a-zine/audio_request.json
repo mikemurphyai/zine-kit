@@ -1,0 +1,53 @@
+{
+  "provider": "auto",
+  "speed": "0.95",
+  "lines": [
+    {
+      "id": "01",
+      "text": "You can make a book of eight pages from one sheet of paper. It is a zine."
+    },
+    {
+      "id": "02",
+      "text": "Type your pages. Print one sheet. Cut it one time. Fold it."
+    },
+    {
+      "id": "03",
+      "text": "Open zine dot I-murph dot com. Type your eight pages in the form."
+    },
+    {
+      "id": "04",
+      "text": "The top row prints upside down. This is correct."
+    },
+    {
+      "id": "05",
+      "text": "Print the sheet in landscape on US Letter paper, at 100 percent scale, with no margins."
+    },
+    {
+      "id": "06",
+      "text": "Task one. Make the fold lines. Fold the bottom edge to the top edge. Open the sheet. Fold the sheet in half two times, from left to right. Open the sheet. Make sure that you have eight equal panels."
+    },
+    {
+      "id": "07",
+      "text": "Task two. Cut the slot. Fold the sheet in half from left to right. Caution: do not cut past the first vertical fold line. If the cut is too long, the zine will come apart. Cut along the horizontal fold line from the folded edge."
+    },
+    {
+      "id": "08",
+      "text": "Task three. Fold the zine. Fold the top row back, behind the bottom row. Hold the two ends. Push them slowly to the center. The slot opens into a diamond, then into a plus shape. Fold the four arms together to close the zine like a book."
+    },
+    {
+      "id": "09",
+      "text": "Make sure that the pages are in the sequence one to eight. Your zine is complete."
+    },
+    {
+      "id": "10",
+      "text": "Make your zine at zine dot I-murph dot com."
+    }
+  ],
+  "bgm": {
+    "mode": "retrieve",
+    "query": "soft light acoustic guitar underscore, warm, calm, handmade, low energy, no drums",
+    "blob": "You can make an 8-page zine from one sheet of paper: type your pages at zine.imurph.com, print, cut once, and fold.",
+    "arc": "how-to-process"
+  },
+  "voice": "am_adam"
+}

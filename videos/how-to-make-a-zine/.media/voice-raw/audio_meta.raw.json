@@ -1,0 +1,1361 @@
+{
+  "bgm": null,
+  "bgm_pending": false,
+  "voices": [
+    {
+      "frame": 1,
+      "path": "assets/voice/01.wav",
+      "duration_s": 4.117,
+      "words": [
+        {
+          "id": "w0",
+          "text": "You",
+          "start": 0.04,
+          "end": 0.16
+        },
+        {
+          "id": "w1",
+          "text": "can",
+          "start": 0.18,
+          "end": 0.34
+        },
+        {
+          "id": "w2",
+          "text": "make",
+          "start": 0.34,
+          "end": 0.57
+        },
+        {
+          "id": "w3",
+          "text": "a",
+          "start": 0.57,
+          "end": 0.6
+        },
+        {
+          "id": "w4",
+          "text": "book",
+          "start": 0.64,
+          "end": 0.85
+        },
+        {
+          "id": "w5",
+          "text": "of",
+          "start": 0.85,
+          "end": 0.91
+        },
+        {
+          "id": "w6",
+          "text": "eight",
+          "start": 1.06,
+          "end": 1.24
+        },
+        {
+          "id": "w7",
+          "text": "pages",
+          "start": 1.24,
+          "end": 1.53
+        },
+        {
+          "id": "w8",
+          "text": "from",
+          "start": 1.61,
+          "end": 1.88
+        },
+        {
+          "id": "w9",
+          "text": "one",
+          "start": 1.88,
+          "end": 2.12
+        },
+        {
+          "id": "w10",
+          "text": "sheet",
+          "start": 2.12,
+          "end": 2.48
+        },
+        {
+          "id": "w11",
+          "text": "of",
+          "start": 2.57,
+          "end": 2.69
+        },
+        {
+          "id": "w12",
+          "text": "paper.",
+          "start": 2.69,
+          "end": 3.16
+        },
+        {
+          "id": "w13",
+          "text": "It",
+          "start": 3.2,
+          "end": 3.28
+        },
+        {
+          "id": "w14",
+          "text": "is",
+          "start": 3.32,
+          "end": 3.44
+        },
+        {
+          "id": "w15",
+          "text": "a",
+          "start": 3.44,
+          "end": 3.51
+        },
+        {
+          "id": "w16",
+          "text": "zine.",
+          "start": 3.51,
+          "end": 4.04
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "path": "assets/voice/02.wav",
+      "duration_s": 3.541,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Type",
+          "start": 0.04,
+          "end": 0.21
+        },
+        {
+          "id": "w1",
+          "text": "your",
+          "start": 0.27,
+          "end": 0.54
+        },
+        {
+          "id": "w2",
+          "text": "pages,",
+          "start": 0.54,
+          "end": 1
+        },
+        {
+          "id": "w3",
+          "text": "print",
+          "start": 1.01,
+          "end": 1.34
+        },
+        {
+          "id": "w4",
+          "text": "one",
+          "start": 1.34,
+          "end": 1.55
+        },
+        {
+          "id": "w5",
+          "text": "sheet,",
+          "start": 1.55,
+          "end": 2.04
+        },
+        {
+          "id": "w6",
+          "text": "cut",
+          "start": 2.06,
+          "end": 2.25
+        },
+        {
+          "id": "w7",
+          "text": "it",
+          "start": 2.25,
+          "end": 2.39
+        },
+        {
+          "id": "w8",
+          "text": "one",
+          "start": 2.39,
+          "end": 2.6
+        },
+        {
+          "id": "w9",
+          "text": "time,",
+          "start": 2.6,
+          "end": 2.92
+        },
+        {
+          "id": "w10",
+          "text": "fold",
+          "start": 3.04,
+          "end": 3.3
+        },
+        {
+          "id": "w11",
+          "text": "it.",
+          "start": 3.3,
+          "end": 3.5
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "path": "assets/voice/03.wav",
+      "duration_s": 4.437,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Open",
+          "start": 0.04,
+          "end": 0.42
+        },
+        {
+          "id": "w1",
+          "text": "zine.imerf.com.",
+          "start": 0.42,
+          "end": 2.6
+        },
+        {
+          "id": "w2",
+          "text": "Type",
+          "start": 2.66,
+          "end": 2.84
+        },
+        {
+          "id": "w3",
+          "text": "your",
+          "start": 2.92,
+          "end": 3.16
+        },
+        {
+          "id": "w4",
+          "text": "8",
+          "start": 3.16,
+          "end": 3.37
+        },
+        {
+          "id": "w5",
+          "text": "pages",
+          "start": 3.37,
+          "end": 3.72
+        },
+        {
+          "id": "w6",
+          "text": "in",
+          "start": 3.72,
+          "end": 3.86
+        },
+        {
+          "id": "w7",
+          "text": "the",
+          "start": 3.86,
+          "end": 4.07
+        },
+        {
+          "id": "w8",
+          "text": "form.",
+          "start": 4.07,
+          "end": 4.4
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "path": "assets/voice/04.wav",
+      "duration_s": 2.923,
+      "words": [
+        {
+          "id": "w0",
+          "text": "The",
+          "start": 0.04,
+          "end": 0.24
+        },
+        {
+          "id": "w1",
+          "text": "top",
+          "start": 0.24,
+          "end": 0.48
+        },
+        {
+          "id": "w2",
+          "text": "row",
+          "start": 0.48,
+          "end": 0.65
+        },
+        {
+          "id": "w3",
+          "text": "prints",
+          "start": 0.75,
+          "end": 1.19
+        },
+        {
+          "id": "w4",
+          "text": "upside",
+          "start": 1.19,
+          "end": 1.65
+        },
+        {
+          "id": "w5",
+          "text": "down,",
+          "start": 1.65,
+          "end": 2.11
+        },
+        {
+          "id": "w6",
+          "text": "this",
+          "start": 2.11,
+          "end": 2.29
+        },
+        {
+          "id": "w7",
+          "text": "is",
+          "start": 2.36,
+          "end": 2.47
+        },
+        {
+          "id": "w8",
+          "text": "correct.",
+          "start": 2.47,
+          "end": 2.92
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "path": "assets/voice/05.wav",
+      "duration_s": 5.888,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Print",
+          "start": 0.06,
+          "end": 0.4
+        },
+        {
+          "id": "w1",
+          "text": "the",
+          "start": 0.4,
+          "end": 0.56
+        },
+        {
+          "id": "w2",
+          "text": "sheet",
+          "start": 0.64,
+          "end": 1.03
+        },
+        {
+          "id": "w3",
+          "text": "in",
+          "start": 1.04,
+          "end": 1.12
+        },
+        {
+          "id": "w4",
+          "text": "landscape",
+          "start": 1.2,
+          "end": 1.92
+        },
+        {
+          "id": "w5",
+          "text": "on",
+          "start": 1.92,
+          "end": 2.07
+        },
+        {
+          "id": "w6",
+          "text": "US",
+          "start": 2.07,
+          "end": 2.24
+        },
+        {
+          "id": "w7",
+          "text": "letter",
+          "start": 2.24,
+          "end": 2.67
+        },
+        {
+          "id": "w8",
+          "text": "paper,",
+          "start": 3.16,
+          "end": 3.32
+        },
+        {
+          "id": "w9",
+          "text": "at",
+          "start": 3.32,
+          "end": 3.48
+        },
+        {
+          "id": "w10",
+          "text": "100%",
+          "start": 3.48,
+          "end": 4.3
+        },
+        {
+          "id": "w11",
+          "text": "scale",
+          "start": 4.34,
+          "end": 4.72
+        },
+        {
+          "id": "w12",
+          "text": "with",
+          "start": 4.73,
+          "end": 5.05
+        },
+        {
+          "id": "w13",
+          "text": "no",
+          "start": 5.05,
+          "end": 5.21
+        },
+        {
+          "id": "w14",
+          "text": "margins.",
+          "start": 5.21,
+          "end": 5.84
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "path": "assets/voice/06.wav",
+      "duration_s": 11.349,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Task",
+          "start": 0.06,
+          "end": 0.3
+        },
+        {
+          "id": "w1",
+          "text": "one,",
+          "start": 0.38,
+          "end": 0.7
+        },
+        {
+          "id": "w2",
+          "text": "make",
+          "start": 0.81,
+          "end": 1.07
+        },
+        {
+          "id": "w3",
+          "text": "the",
+          "start": 1.07,
+          "end": 1.32
+        },
+        {
+          "id": "w4",
+          "text": "fold",
+          "start": 1.32,
+          "end": 1.65
+        },
+        {
+          "id": "w5",
+          "text": "lines.",
+          "start": 1.65,
+          "end": 2.12
+        },
+        {
+          "id": "w6",
+          "text": "Fold",
+          "start": 2.18,
+          "end": 2.37
+        },
+        {
+          "id": "w7",
+          "text": "the",
+          "start": 2.37,
+          "end": 2.55
+        },
+        {
+          "id": "w8",
+          "text": "bottom",
+          "start": 2.55,
+          "end": 2.82
+        },
+        {
+          "id": "w9",
+          "text": "edge",
+          "start": 2.93,
+          "end": 3.17
+        },
+        {
+          "id": "w10",
+          "text": "to",
+          "start": 3.17,
+          "end": 3.2
+        },
+        {
+          "id": "w11",
+          "text": "the",
+          "start": 3.31,
+          "end": 3.47
+        },
+        {
+          "id": "w12",
+          "text": "top",
+          "start": 3.47,
+          "end": 3.65
+        },
+        {
+          "id": "w13",
+          "text": "edge.",
+          "start": 3.65,
+          "end": 4.05
+        },
+        {
+          "id": "w14",
+          "text": "Open",
+          "start": 4.18,
+          "end": 4.41
+        },
+        {
+          "id": "w15",
+          "text": "the",
+          "start": 4.41,
+          "end": 4.63
+        },
+        {
+          "id": "w16",
+          "text": "sheet.",
+          "start": 4.63,
+          "end": 5.21
+        },
+        {
+          "id": "w17",
+          "text": "Fold",
+          "start": 5.3,
+          "end": 5.49
+        },
+        {
+          "id": "w18",
+          "text": "the",
+          "start": 5.49,
+          "end": 5.67
+        },
+        {
+          "id": "w19",
+          "text": "sheet",
+          "start": 5.67,
+          "end": 5.94
+        },
+        {
+          "id": "w20",
+          "text": "in",
+          "start": 6.05,
+          "end": 6.1
+        },
+        {
+          "id": "w21",
+          "text": "half",
+          "start": 6.1,
+          "end": 6.33
+        },
+        {
+          "id": "w22",
+          "text": "two",
+          "start": 6.43,
+          "end": 6.53
+        },
+        {
+          "id": "w23",
+          "text": "times",
+          "start": 6.53,
+          "end": 6.88
+        },
+        {
+          "id": "w24",
+          "text": "from",
+          "start": 6.88,
+          "end": 7.15
+        },
+        {
+          "id": "w25",
+          "text": "left",
+          "start": 7.15,
+          "end": 7.16
+        },
+        {
+          "id": "w26",
+          "text": "to",
+          "start": 7.43,
+          "end": 7.55
+        },
+        {
+          "id": "w27",
+          "text": "right.",
+          "start": 7.55,
+          "end": 8.12
+        },
+        {
+          "id": "w28",
+          "text": "Open",
+          "start": 8.18,
+          "end": 8.4
+        },
+        {
+          "id": "w29",
+          "text": "the",
+          "start": 8.4,
+          "end": 8.61
+        },
+        {
+          "id": "w30",
+          "text": "sheet.",
+          "start": 8.61,
+          "end": 9.2
+        },
+        {
+          "id": "w31",
+          "text": "Make",
+          "start": 9.26,
+          "end": 9.43
+        },
+        {
+          "id": "w32",
+          "text": "sure",
+          "start": 9.43,
+          "end": 9.66
+        },
+        {
+          "id": "w33",
+          "text": "that",
+          "start": 9.66,
+          "end": 9.89
+        },
+        {
+          "id": "w34",
+          "text": "you",
+          "start": 9.89,
+          "end": 10.06
+        },
+        {
+          "id": "w35",
+          "text": "have",
+          "start": 10.06,
+          "end": 10.29
+        },
+        {
+          "id": "w36",
+          "text": "eight",
+          "start": 10.39,
+          "end": 10.58
+        },
+        {
+          "id": "w37",
+          "text": "equal",
+          "start": 10.58,
+          "end": 10.86
+        },
+        {
+          "id": "w38",
+          "text": "panels.",
+          "start": 10.86,
+          "end": 11.44
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "path": "assets/voice/07.wav",
+      "duration_s": 13.845,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Task",
+          "start": 0.03,
+          "end": 0.31
+        },
+        {
+          "id": "w1",
+          "text": "two,",
+          "start": 0.43,
+          "end": 0.92
+        },
+        {
+          "id": "w2",
+          "text": "cut",
+          "start": 0.92,
+          "end": 1.23
+        },
+        {
+          "id": "w3",
+          "text": "the",
+          "start": 1.23,
+          "end": 1.49
+        },
+        {
+          "id": "w4",
+          "text": "slot.",
+          "start": 1.49,
+          "end": 2.01
+        },
+        {
+          "id": "w5",
+          "text": "Fold",
+          "start": 2.01,
+          "end": 2.24
+        },
+        {
+          "id": "w6",
+          "text": "the",
+          "start": 2.24,
+          "end": 2.44
+        },
+        {
+          "id": "w7",
+          "text": "sheet",
+          "start": 2.44,
+          "end": 2.74
+        },
+        {
+          "id": "w8",
+          "text": "in",
+          "start": 2.86,
+          "end": 2.9
+        },
+        {
+          "id": "w9",
+          "text": "half",
+          "start": 2.9,
+          "end": 3.16
+        },
+        {
+          "id": "w10",
+          "text": "from",
+          "start": 3.16,
+          "end": 3.42
+        },
+        {
+          "id": "w11",
+          "text": "left",
+          "start": 3.42,
+          "end": 3.49
+        },
+        {
+          "id": "w12",
+          "text": "to",
+          "start": 3.49,
+          "end": 4.02
+        },
+        {
+          "id": "w13",
+          "text": "right.",
+          "start": 4.02,
+          "end": 4.38
+        },
+        {
+          "id": "w14",
+          "text": "Caution,",
+          "start": 4.44,
+          "end": 4.98
+        },
+        {
+          "id": "w15",
+          "text": "do",
+          "start": 4.98,
+          "end": 5.1
+        },
+        {
+          "id": "w16",
+          "text": "not",
+          "start": 5.1,
+          "end": 5.31
+        },
+        {
+          "id": "w17",
+          "text": "cut",
+          "start": 5.31,
+          "end": 5.51
+        },
+        {
+          "id": "w18",
+          "text": "past",
+          "start": 5.51,
+          "end": 5.78
+        },
+        {
+          "id": "w19",
+          "text": "the",
+          "start": 5.78,
+          "end": 5.87
+        },
+        {
+          "id": "w20",
+          "text": "first",
+          "start": 5.87,
+          "end": 6.42
+        },
+        {
+          "id": "w21",
+          "text": "vertical",
+          "start": 6.42,
+          "end": 6.87
+        },
+        {
+          "id": "w22",
+          "text": "fold",
+          "start": 6.87,
+          "end": 7.14
+        },
+        {
+          "id": "w23",
+          "text": "line.",
+          "start": 7.14,
+          "end": 7.61
+        },
+        {
+          "id": "w24",
+          "text": "If",
+          "start": 7.76,
+          "end": 7.83
+        },
+        {
+          "id": "w25",
+          "text": "the",
+          "start": 7.83,
+          "end": 8.01
+        },
+        {
+          "id": "w26",
+          "text": "cut",
+          "start": 8.13,
+          "end": 8.21
+        },
+        {
+          "id": "w27",
+          "text": "is",
+          "start": 8.21,
+          "end": 8.34
+        },
+        {
+          "id": "w28",
+          "text": "too",
+          "start": 8.34,
+          "end": 8.44
+        },
+        {
+          "id": "w29",
+          "text": "long,",
+          "start": 8.58,
+          "end": 8.94
+        },
+        {
+          "id": "w30",
+          "text": "the",
+          "start": 8.94,
+          "end": 9.15
+        },
+        {
+          "id": "w31",
+          "text": "zine",
+          "start": 9.15,
+          "end": 9.29
+        },
+        {
+          "id": "w32",
+          "text": "will",
+          "start": 9.29,
+          "end": 9.74
+        },
+        {
+          "id": "w33",
+          "text": "come",
+          "start": 9.74,
+          "end": 10.03
+        },
+        {
+          "id": "w34",
+          "text": "apart.",
+          "start": 10.03,
+          "end": 10.55
+        },
+        {
+          "id": "w35",
+          "text": "Cut",
+          "start": 10.7,
+          "end": 10.87
+        },
+        {
+          "id": "w36",
+          "text": "along",
+          "start": 10.87,
+          "end": 11.22
+        },
+        {
+          "id": "w37",
+          "text": "the",
+          "start": 11.22,
+          "end": 11.4
+        },
+        {
+          "id": "w38",
+          "text": "horizontal",
+          "start": 11.54,
+          "end": 12.12
+        },
+        {
+          "id": "w39",
+          "text": "fold",
+          "start": 12.12,
+          "end": 12.18
+        },
+        {
+          "id": "w40",
+          "text": "line",
+          "start": 12.18,
+          "end": 12.7
+        },
+        {
+          "id": "w41",
+          "text": "from",
+          "start": 12.7,
+          "end": 12.95
+        },
+        {
+          "id": "w42",
+          "text": "the",
+          "start": 12.95,
+          "end": 13.14
+        },
+        {
+          "id": "w43",
+          "text": "folded",
+          "start": 13.14,
+          "end": 13.51
+        },
+        {
+          "id": "w44",
+          "text": "edge.",
+          "start": 13.64,
+          "end": 13.89
+        }
+      ]
+    },
+    {
+      "frame": 8,
+      "path": "assets/voice/08.wav",
+      "duration_s": 14.272,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Task",
+          "start": 0.04,
+          "end": 0.3
+        },
+        {
+          "id": "w1",
+          "text": "three,",
+          "start": 0.43,
+          "end": 1
+        },
+        {
+          "id": "w2",
+          "text": "fold",
+          "start": 1.09,
+          "end": 1.33
+        },
+        {
+          "id": "w3",
+          "text": "the",
+          "start": 1.33,
+          "end": 1.57
+        },
+        {
+          "id": "w4",
+          "text": "zine,",
+          "start": 1.57,
+          "end": 2.08
+        },
+        {
+          "id": "w5",
+          "text": "fold",
+          "start": 2.14,
+          "end": 2.35
+        },
+        {
+          "id": "w6",
+          "text": "the",
+          "start": 2.35,
+          "end": 2.55
+        },
+        {
+          "id": "w7",
+          "text": "top",
+          "start": 2.55,
+          "end": 2.74
+        },
+        {
+          "id": "w8",
+          "text": "row",
+          "start": 2.75,
+          "end": 2.96
+        },
+        {
+          "id": "w9",
+          "text": "back",
+          "start": 2.96,
+          "end": 3.18
+        },
+        {
+          "id": "w10",
+          "text": "behind",
+          "start": 3.29,
+          "end": 3.52
+        },
+        {
+          "id": "w11",
+          "text": "the",
+          "start": 3.52,
+          "end": 3.6
+        },
+        {
+          "id": "w12",
+          "text": "bottom",
+          "start": 3.6,
+          "end": 4.04
+        },
+        {
+          "id": "w13",
+          "text": "row,",
+          "start": 4.04,
+          "end": 4.38
+        },
+        {
+          "id": "w14",
+          "text": "hold",
+          "start": 4.6,
+          "end": 4.86
+        },
+        {
+          "id": "w15",
+          "text": "the",
+          "start": 4.86,
+          "end": 5.08
+        },
+        {
+          "id": "w16",
+          "text": "two",
+          "start": 5.08,
+          "end": 5.28
+        },
+        {
+          "id": "w17",
+          "text": "ends,",
+          "start": 5.6,
+          "end": 5.75
+        },
+        {
+          "id": "w18",
+          "text": "push",
+          "start": 5.75,
+          "end": 6.05
+        },
+        {
+          "id": "w19",
+          "text": "them",
+          "start": 6.05,
+          "end": 6.34
+        },
+        {
+          "id": "w20",
+          "text": "slowly",
+          "start": 6.36,
+          "end": 6.8
+        },
+        {
+          "id": "w21",
+          "text": "to",
+          "start": 6.8,
+          "end": 6.94
+        },
+        {
+          "id": "w22",
+          "text": "the",
+          "start": 6.99,
+          "end": 7.17
+        },
+        {
+          "id": "w23",
+          "text": "center.",
+          "start": 7.17,
+          "end": 7.88
+        },
+        {
+          "id": "w24",
+          "text": "The",
+          "start": 7.92,
+          "end": 8.09
+        },
+        {
+          "id": "w25",
+          "text": "slot",
+          "start": 8.09,
+          "end": 8.36
+        },
+        {
+          "id": "w26",
+          "text": "opens",
+          "start": 8.36,
+          "end": 8.61
+        },
+        {
+          "id": "w27",
+          "text": "into",
+          "start": 8.97,
+          "end": 9
+        },
+        {
+          "id": "w28",
+          "text": "a",
+          "start": 9,
+          "end": 9.07
+        },
+        {
+          "id": "w29",
+          "text": "diamond,",
+          "start": 9.07,
+          "end": 9.68
+        },
+        {
+          "id": "w30",
+          "text": "then",
+          "start": 9.68,
+          "end": 10.02
+        },
+        {
+          "id": "w31",
+          "text": "into",
+          "start": 10.02,
+          "end": 10.26
+        },
+        {
+          "id": "w32",
+          "text": "a",
+          "start": 10.26,
+          "end": 10.33
+        },
+        {
+          "id": "w33",
+          "text": "plus",
+          "start": 10.33,
+          "end": 10.6
+        },
+        {
+          "id": "w34",
+          "text": "shape.",
+          "start": 10.61,
+          "end": 11.23
+        },
+        {
+          "id": "w35",
+          "text": "Fold",
+          "start": 11.28,
+          "end": 11.48
+        },
+        {
+          "id": "w36",
+          "text": "the",
+          "start": 11.48,
+          "end": 11.54
+        },
+        {
+          "id": "w37",
+          "text": "four",
+          "start": 11.69,
+          "end": 11.89
+        },
+        {
+          "id": "w38",
+          "text": "arms",
+          "start": 11.89,
+          "end": 11.97
+        },
+        {
+          "id": "w39",
+          "text": "together",
+          "start": 12.33,
+          "end": 12.62
+        },
+        {
+          "id": "w40",
+          "text": "to",
+          "start": 12.62,
+          "end": 12.74
+        },
+        {
+          "id": "w41",
+          "text": "close",
+          "start": 12.74,
+          "end": 13.02
+        },
+        {
+          "id": "w42",
+          "text": "the",
+          "start": 13.03,
+          "end": 13.06
+        },
+        {
+          "id": "w43",
+          "text": "zine",
+          "start": 13.28,
+          "end": 13.46
+        },
+        {
+          "id": "w44",
+          "text": "like",
+          "start": 13.46,
+          "end": 13.7
+        },
+        {
+          "id": "w45",
+          "text": "a",
+          "start": 13.7,
+          "end": 13.76
+        },
+        {
+          "id": "w46",
+          "text": "book.",
+          "start": 13.76,
+          "end": 14.2
+        }
+      ]
+    },
+    {
+      "frame": 9,
+      "path": "assets/voice/09.wav",
+      "duration_s": 4.459,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Make",
+          "start": 0.03,
+          "end": 0.23
+        },
+        {
+          "id": "w1",
+          "text": "sure",
+          "start": 0.23,
+          "end": 0.46
+        },
+        {
+          "id": "w2",
+          "text": "that",
+          "start": 0.46,
+          "end": 0.63
+        },
+        {
+          "id": "w3",
+          "text": "the",
+          "start": 0.71,
+          "end": 0.86
+        },
+        {
+          "id": "w4",
+          "text": "pages",
+          "start": 0.86,
+          "end": 1.16
+        },
+        {
+          "id": "w5",
+          "text": "are",
+          "start": 1.16,
+          "end": 1.37
+        },
+        {
+          "id": "w6",
+          "text": "in",
+          "start": 1.37,
+          "end": 1.51
+        },
+        {
+          "id": "w7",
+          "text": "the",
+          "start": 1.51,
+          "end": 1.66
+        },
+        {
+          "id": "w8",
+          "text": "sequence",
+          "start": 1.76,
+          "end": 2.28
+        },
+        {
+          "id": "w9",
+          "text": "one",
+          "start": 2.28,
+          "end": 2.49
+        },
+        {
+          "id": "w10",
+          "text": "to",
+          "start": 2.49,
+          "end": 2.52
+        },
+        {
+          "id": "w11",
+          "text": "eight.",
+          "start": 2.52,
+          "end": 3.03
+        },
+        {
+          "id": "w12",
+          "text": "Your",
+          "start": 3.03,
+          "end": 3.3
+        },
+        {
+          "id": "w13",
+          "text": "zine",
+          "start": 3.3,
+          "end": 3.53
+        },
+        {
+          "id": "w14",
+          "text": "is",
+          "start": 3.59,
+          "end": 3.74
+        },
+        {
+          "id": "w15",
+          "text": "complete.",
+          "start": 3.74,
+          "end": 4.57
+        }
+      ]
+    },
+    {
+      "frame": 10,
+      "path": "assets/voice/10.wav",
+      "duration_s": 2.667,
+      "words": [
+        {
+          "id": "w0",
+          "text": "Make",
+          "start": 0.03,
+          "end": 0.32
+        },
+        {
+          "id": "w1",
+          "text": "your",
+          "start": 0.32,
+          "end": 0.64
+        },
+        {
+          "id": "w2",
+          "text": "zine",
+          "start": 0.64,
+          "end": 0.96
+        },
+        {
+          "id": "w3",
+          "text": "at",
+          "start": 0.96,
+          "end": 1.12
+        },
+        {
+          "id": "w4",
+          "text": "zine.imurf.com.",
+          "start": 1.12,
+          "end": 2.6
+        }
+      ]
+    }
+  ],
+  "sfx": []
+}

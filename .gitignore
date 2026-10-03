@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Node
+node_modules/
+
+# HyperFrames video project: generated, cached, or machine-specific files
+videos/*/renders/
+videos/*/snapshots/
+videos/*/.thumbnails/
+videos/*/.waveform-cache/
+videos/*/.hyperframes/frame-packets/
+videos/*/bgm_status.json
+videos/*/assets/bgm/*.log
+# .media holds personal preferences, recipes, logs and scratch audio.
+# Keep only the build scripts, the BGM request and the raw TTS used by pace_voice.py.
+videos/*/.media/*
+!videos/*/.media/*.py
+!videos/*/.media/bgm_request.json
+!videos/*/.media/voice-raw/
+videos/*/.hyperframes/preview/
+videos/*/.hyperframes/history-id

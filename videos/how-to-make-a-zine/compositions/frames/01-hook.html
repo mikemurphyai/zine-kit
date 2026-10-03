@@ -1,0 +1,131 @@
+<template>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:400;src:url('assets/fonts/Newsreader-normal-400.woff2') format('woff2');}
+@font-face{font-family:'Newsreader';font-style:normal;font-weight:600;src:url('assets/fonts/Newsreader-normal-600.woff2') format('woff2');}
+@font-face{font-family:'Newsreader';font-style:italic;font-weight:400;src:url('assets/fonts/Newsreader-italic-400.woff2') format('woff2');}
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:400;src:url('assets/fonts/PublicSans-normal-400.woff2') format('woff2');}
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:600;src:url('assets/fonts/PublicSans-normal-600.woff2') format('woff2');}
+@font-face{font-family:'Public Sans';font-style:normal;font-weight:700;src:url('assets/fonts/PublicSans-normal-700.woff2') format('woff2');}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:400;src:url('assets/fonts/IBMPlexMono-normal-400.woff2') format('woff2');}
+@font-face{font-family:'IBM Plex Mono';font-style:normal;font-weight:600;src:url('assets/fonts/IBMPlexMono-normal-600.woff2') format('woff2');}
+
+#root{position:absolute;left:0;top:0;width:1920px;height:1080px;overflow:hidden;font-family:'Public Sans',sans-serif;color:#17221d;}
+.f01-bg{position:absolute;left:0;top:0;width:1920px;height:1080px;background:#f3f0e9;}
+.f01-a{position:absolute;}
+.f01-kick{font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:24px;letter-spacing:.16em;text-transform:uppercase;color:#b8501f;}
+.f01-kick-m{color:#5a655f;}
+.f01-disp{font-family:'Newsreader',serif;font-weight:400;letter-spacing:-.022em;line-height:1.02;margin:0;}
+.f01-mono{font-family:'IBM Plex Mono',monospace;}
+.f01-paper{background:#ffffff;}
+.f01-shadow{box-shadow:0 2px 6px rgba(23,34,29,.08),0 23px 50px -19px rgba(23,34,29,.32);}
+.f01-p3d{transform-style:preserve-3d;}
+.f01-face{position:absolute;left:0;top:0;width:100%;height:100%;backface-visibility:hidden;-webkit-backface-visibility:hidden;background:#fff;}
+.f01-grid{position:absolute;left:0;top:0;width:100%;height:100%;display:grid;}
+.f01-cellp{position:relative;display:flex;align-items:center;justify-content:center;font-family:'Newsreader',serif;color:#17221d;}
+.f01-up > *{transform:rotate(180deg);}
+.f01-shade{position:absolute;left:0;top:0;width:100%;height:100%;background:#17221d;opacity:0;}
+.f01-task{position:absolute;background:#fdfaf4;border:1.5px solid #ddd8cd;border-radius:17px;box-shadow:0 19px 46px -27px rgba(23,34,29,.38);overflow:hidden;}
+.f01-task-hd{padding:21px 29px 17px;border-bottom:1.5px solid #ddd8cd;}
+.f01-task-hd span{display:block;font-family:'IBM Plex Mono',monospace;font-weight:600;font-size:18px;letter-spacing:.16em;color:#b8501f;}
+.f01-task-hd h3{margin:4px 0 0;font-family:'Newsreader',serif;font-weight:600;font-size:40px;letter-spacing:-.01em;line-height:1.1;}
+.f01-task ol{margin:0;padding:17px 29px 19px 63px;display:grid;gap:5px;font-size:21px;line-height:1.3;color:#5a655f;}
+.f01-task li{padding:3px 10px;margin-left:-10px;border-radius:8px;background:rgba(251,230,218,0);}
+.f01-task li::marker{font-family:'IBM Plex Mono',monospace;font-size:18px;color:#5a655f;}
+.f01-notice{margin:0 29px 17px;padding:14px 19px;border-radius:13px;font-size:21px;line-height:1.3;}
+.f01-notice b{display:block;font-family:'IBM Plex Mono',monospace;font-size:17px;letter-spacing:.16em;margin-bottom:2px;}
+.f01-caution{background:#fbf0d2;border:1.5px solid #e2bb5c;color:#7f5600;}
+.f01-note{background:#fbe6da;border:1.5px solid #f1c9b1;color:#17221d;}
+.f01-note b{color:#ae4c1d;}
+.f01-w{display:inline-block}
+  </style>
+  <div id="root" data-composition-id="01-hook" data-width="1920" data-height="1080" data-duration="6.5">
+    <div id="f01-ground" class="f01-bg clip" data-start="0" data-duration="6.5" data-track-index="0"></div>
+
+    <div class="f01-a" id="f01-ghost" style="left:118px;top:214px;width:576px;height:445px;transform:rotate(-4deg);transform-origin:504px 111px;opacity:0">
+      <div class="f01-a f01-paper f01-shadow" style="left:0;top:0;width:100%;height:100%"><div class="f01-grid" style="grid-template-columns:repeat(4,1fr);grid-template-rows:repeat(2,1fr)"><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp " style="border-right:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp " style="border-right:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp " style="border-right:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp " style=";font-size:20px"><span style=""></span></div></div></div>
+    </div>
+    <div class="f01-a" id="f01-arrow" style="left:733px;top:406px;font-family:'IBM Plex Mono';font-size:58px;color:#d86b3c;opacity:0">→</div>
+    <div class="f01-a" id="f01-sheetw" style="left:118px;top:214px;width:576px;height:445px;perspective:2400px">
+      <!-- A: full sheet, bottom row folds up -->
+      <div class="f01-a f01-p3d" id="f01-A" data-layout-allow-overlap style="left:0;top:0;width:576px;height:445px">
+        <div class="f01-a f01-paper f01-shadow" style="left:0;top:0;width:576px;height:222px"><div class="f01-grid" style="grid-template-columns:repeat(4,1fr);grid-template-rows:1fr"><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div></div></div>
+        <div class="f01-a f01-p3d" id="f01-Aflap" data-layout-allow-overlap style="left:0;top:222px;width:576px;height:223px;transform-origin:50% 0%">
+          <div class="f01-face"><div class="f01-grid" style="grid-template-columns:repeat(4,1fr);grid-template-rows:1fr"><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-right:3px dashed #b4b4b4;border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div><div class="f01-cellp f01-up" style="border-bottom:3px dashed #b4b4b4;font-size:20px"><span style=""></span></div></div><div class="f01-shade" id="f01-Ashade"></div></div>
+          <div class="f01-face" style="transform:rotateX(180deg)"></div>
+        </div>
+      </div>
+      <!-- B: top half, left two columns fold right -->
+      <div class="f01-a f01-p3d" id="f01-B" data-layout-allow-overlap style="left:0;top:0;width:576px;height:222px;opacity:0">
+        <div class="f01-a f01-paper f01-shadow" style="left:288px;top:0;width:288px;height:222px"></div>
+        <div class="f01-a f01-p3d" id="f01-Bflap" data-layout-allow-overlap style="left:0;top:0;width:288px;height:222px;transform-origin:100% 50%">
+          <div class="f01-face"><div class="f01-shade" id="f01-Bshade"></div></div><div class="f01-face" style="transform:rotateY(180deg)"></div>
+        </div>
+      </div>
+      <!-- C: last fold, column 3 onto column 4 -> one panel -->
+      <div class="f01-a f01-p3d" id="f01-C" data-layout-allow-overlap style="left:288px;top:0;width:288px;height:222px;opacity:0">
+        <div class="f01-a f01-paper f01-shadow" style="left:144px;top:0;width:144px;height:222px"></div>
+        <div class="f01-a f01-p3d" id="f01-Cflap" data-layout-allow-overlap style="left:0;top:0;width:144px;height:222px;transform-origin:100% 50%">
+          <div class="f01-face"><div class="f01-shade" id="f01-Cshade"></div></div><div class="f01-face" style="transform:rotateY(180deg)"></div>
+        </div>
+      </div>
+    </div>
+    <div id="f01-book" class="f01-a f01-paper" style="left:848px;top:157px;width:288px;height:442px;opacity:0;border-left:10px solid #ece7dc;padding:31px 25px;box-shadow:12px 17px 35px -19px rgba(23,34,29,.45)"><div class="f01-kick f01-kick-m" style="font-size:15px">Page 1 · Front</div><div class="f01-disp" style="font-size:46px;margin-top:19px">My first<br>zine</div><div class="f01-a" style="left:26px;right:26px;bottom:28px;height:96px;border:2.5px solid #17221d;border-radius:50% 50% 0 0/60% 60% 0 0;opacity:.5"></div></div>
+    <div class="f01-a" style="left:1226px;top:166px;width:614px">
+      <div class="f01-kick" id="f01-kick"><span class="f01-w">One sheet</span> <span class="f01-w">· One cut</span> <span class="f01-w">· Eight pages</span></div>
+      <h2 class="f01-disp" style="font-size:123px;margin-top:23px"><span id="f01-t1" style="display:block">How to make</span><span id="f01-t2" style="display:block">a zine</span></h2>
+    </div>
+  </div>
+  <script>
+  (function () {
+    var D = 6.0;
+    var q = function (s) { return document.querySelector('[data-composition-id="01-hook"] ' + s); };
+    var qa = function (s) { return Array.prototype.slice.call(document.querySelectorAll('[data-composition-id="01-hook"] ' + s)); };
+    var tl = gsap.timeline({ paused: true });
+    // Step-card highlighter: each entry [stepIds[], time]; the previous active rows go "past".
+    function steps(seq) {
+      var prev = [];
+      seq.forEach(function (e) {
+        var t = e[1];
+        prev.forEach(function (id) {
+          tl.fromTo(q('#f01-' + id), { backgroundColor: 'rgba(251,230,218,1)', color: '#17221d' },
+            { backgroundColor: 'rgba(251,230,218,0)', color: '#6f7572', duration: 0.3, ease: 'power2.out', immediateRender: false }, t);
+        });
+        e[0].forEach(function (id) {
+          tl.fromTo(q('#f01-' + id), { backgroundColor: 'rgba(251,230,218,0)', color: '#5a655f' },
+            { backgroundColor: 'rgba(251,230,218,1)', color: '#17221d', duration: 0.3, ease: 'power2.out' }, t);
+        });
+        prev = e[0];
+      });
+    }
+
+    // Scene 1: sheet settles
+    tl.fromTo(q('#f01-sheetw'), {transformOrigin:'504px 111px', y:-40, opacity:0, rotation:-4}, {transformOrigin:'504px 111px', y:0, opacity:1, rotation:-4, duration:0.9, ease:'power3.out'}, 0.1);
+    // Scene 2: folds
+    tl.fromTo(q('#f01-ghost'), {opacity:0}, {opacity:0.35, duration:0.4, ease:'power2.out'}, 1.35);
+    tl.fromTo(q('#f01-Aflap'), {rotationX:0}, {rotationX:180, duration:0.6, ease:'power2.inOut'}, 1.4);
+    tl.fromTo(q('#f01-Ashade'), {opacity:0}, {opacity:0.14, duration:0.3, ease:'power1.in'}, 1.4);
+    tl.set(q('#f01-A'), {opacity:0}, 2.02); tl.set(q('#f01-B'), {opacity:1}, 2.02);
+    tl.fromTo(q('#f01-Bflap'), {rotationY:0}, {rotationY:180, duration:0.5, ease:'power2.inOut'}, 2.05);
+    tl.fromTo(q('#f01-Bshade'), {opacity:0}, {opacity:0.14, duration:0.25, ease:'power1.in'}, 2.05);
+    tl.set(q('#f01-B'), {opacity:0}, 2.57); tl.set(q('#f01-C'), {opacity:1}, 2.57);
+    tl.fromTo(q('#f01-Cflap'), {rotationY:0}, {rotationY:180, duration:0.45, ease:'power2.inOut'}, 2.6);
+    tl.fromTo(q('#f01-Cshade'), {opacity:0}, {opacity:0.14, duration:0.22, ease:'power1.in'}, 2.6);
+    // the single panel lifts into the standing book
+    tl.fromTo(q('#f01-sheetw'), {transformOrigin:'504px 111px', x:0, y:0, scale:1, rotation:-4},
+      {transformOrigin:'504px 111px', x:370, y:53, scale:2, rotation:0, duration:0.6, ease:'power3.inOut', immediateRender:false}, 3.08);
+    tl.fromTo(q('#f01-book'), {opacity:0}, {opacity:1, duration:0.3, ease:'power1.out'}, 3.5);
+    tl.fromTo(q('#f01-sheetw'), {opacity:1}, {opacity:0, duration:0.2, ease:'none', immediateRender:false}, 3.62);
+    // Scene 3: arrow + kicker
+    tl.fromTo(q('#f01-arrow'), {opacity:0, x:-16}, {opacity:1, x:0, duration:0.5, ease:'power3.out'}, 3.5);
+    tl.fromTo(qa('.f01-w'), {opacity:0, y:10}, {opacity:1, y:0, duration:0.45, ease:'power3.out', stagger:0.14}, 3.7);
+    // Scene 4: title on "zine"
+    tl.fromTo(q('#f01-t1'), {opacity:0, y:46}, {opacity:1, y:0, duration:0.7, ease:'power3.out'}, 4.45);
+    tl.fromTo(q('#f01-t2'), {opacity:0, y:46}, {opacity:1, y:0, duration:0.7, ease:'power3.out'}, 4.6);
+
+    tl.set({}, {}, D);
+    window.__timelines = window.__timelines || {};
+    window.__timelines["01-hook"] = tl;
+  })();
+  </script>
+</template>

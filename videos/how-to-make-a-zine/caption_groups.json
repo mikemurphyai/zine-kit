@@ -1,0 +1,2173 @@
+{
+  "total_duration_s": 93.5,
+  "width": 1920,
+  "height": 1080,
+  "groups": [
+    {
+      "id": "caption-group-0",
+      "frame": 1,
+      "start": 0.34,
+      "end": 0.64,
+      "text": "You can",
+      "words": [
+        {
+          "id": "caption-word-0-0",
+          "text": "You",
+          "start": 0.34,
+          "end": 0.46
+        },
+        {
+          "id": "caption-word-0-1",
+          "text": "can",
+          "start": 0.48,
+          "end": 0.64
+        }
+      ]
+    },
+    {
+      "id": "caption-group-1",
+      "frame": 1,
+      "start": 0.64,
+      "end": 0.94,
+      "text": "make a",
+      "words": [
+        {
+          "id": "caption-word-1-0",
+          "text": "make",
+          "start": 0.64,
+          "end": 0.87
+        },
+        {
+          "id": "caption-word-1-1",
+          "text": "a",
+          "start": 0.87,
+          "end": 0.9
+        }
+      ]
+    },
+    {
+      "id": "caption-group-2",
+      "frame": 1,
+      "start": 0.94,
+      "end": 1.33,
+      "text": "book of",
+      "words": [
+        {
+          "id": "caption-word-2-0",
+          "text": "book",
+          "start": 0.94,
+          "end": 1.15
+        },
+        {
+          "id": "caption-word-2-1",
+          "text": "of",
+          "start": 1.15,
+          "end": 1.21
+        }
+      ]
+    },
+    {
+      "id": "caption-group-3",
+      "frame": 1,
+      "start": 1.36,
+      "end": 1.91,
+      "text": "eight pages",
+      "words": [
+        {
+          "id": "caption-word-3-0",
+          "text": "eight",
+          "start": 1.36,
+          "end": 1.54
+        },
+        {
+          "id": "caption-word-3-1",
+          "text": "pages",
+          "start": 1.54,
+          "end": 1.83
+        }
+      ]
+    },
+    {
+      "id": "caption-group-4",
+      "frame": 1,
+      "start": 1.91,
+      "end": 2.42,
+      "text": "from one",
+      "words": [
+        {
+          "id": "caption-word-4-0",
+          "text": "from",
+          "start": 1.91,
+          "end": 2.18
+        },
+        {
+          "id": "caption-word-4-1",
+          "text": "one",
+          "start": 2.18,
+          "end": 2.42
+        }
+      ]
+    },
+    {
+      "id": "caption-group-5",
+      "frame": 1,
+      "start": 2.42,
+      "end": 3.16,
+      "text": "sheet of paper.",
+      "words": [
+        {
+          "id": "caption-word-5-0",
+          "text": "sheet",
+          "start": 2.42,
+          "end": 2.78
+        },
+        {
+          "id": "caption-word-5-1",
+          "text": "of",
+          "start": 2.87,
+          "end": 2.99
+        },
+        {
+          "id": "caption-word-5-2",
+          "text": "paper.",
+          "start": 2.99,
+          "end": 3.04
+        }
+      ]
+    },
+    {
+      "id": "caption-group-6",
+      "frame": 1,
+      "start": 4.283,
+      "end": 4.523,
+      "text": "It is",
+      "words": [
+        {
+          "id": "caption-word-6-0",
+          "text": "It",
+          "start": 4.283,
+          "end": 4.363
+        },
+        {
+          "id": "caption-word-6-1",
+          "text": "is",
+          "start": 4.403,
+          "end": 4.523
+        }
+      ]
+    },
+    {
+      "id": "caption-group-7",
+      "frame": 1,
+      "start": 4.523,
+      "end": 5.243,
+      "text": "a zine.",
+      "words": [
+        {
+          "id": "caption-word-7-0",
+          "text": "a",
+          "start": 4.523,
+          "end": 4.593
+        },
+        {
+          "id": "caption-word-7-1",
+          "text": "zine.",
+          "start": 4.593,
+          "end": 5.123
+        }
+      ]
+    },
+    {
+      "id": "caption-group-8",
+      "frame": 2,
+      "start": 6.34,
+      "end": 6.84,
+      "text": "Type your",
+      "words": [
+        {
+          "id": "caption-word-8-0",
+          "text": "Type",
+          "start": 6.34,
+          "end": 6.51
+        },
+        {
+          "id": "caption-word-8-1",
+          "text": "your",
+          "start": 6.57,
+          "end": 6.84
+        }
+      ]
+    },
+    {
+      "id": "caption-group-9",
+      "frame": 2,
+      "start": 6.84,
+      "end": 7.31,
+      "text": "pages.",
+      "words": [
+        {
+          "id": "caption-word-9-0",
+          "text": "pages.",
+          "start": 6.84,
+          "end": 7.3
+        }
+      ]
+    },
+    {
+      "id": "caption-group-10",
+      "frame": 2,
+      "start": 7.31,
+      "end": 8.09,
+      "text": "Print one sheet.",
+      "words": [
+        {
+          "id": "caption-word-10-0",
+          "text": "Print",
+          "start": 7.31,
+          "end": 7.64
+        },
+        {
+          "id": "caption-word-10-1",
+          "text": "one",
+          "start": 7.64,
+          "end": 7.85
+        },
+        {
+          "id": "caption-word-10-2",
+          "text": "sheet.",
+          "start": 7.85,
+          "end": 7.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-11",
+      "frame": 2,
+      "start": 9.96,
+      "end": 10.29,
+      "text": "Cut it",
+      "words": [
+        {
+          "id": "caption-word-11-0",
+          "text": "Cut",
+          "start": 9.96,
+          "end": 10.15
+        },
+        {
+          "id": "caption-word-11-1",
+          "text": "it",
+          "start": 10.15,
+          "end": 10.29
+        }
+      ]
+    },
+    {
+      "id": "caption-group-12",
+      "frame": 2,
+      "start": 10.29,
+      "end": 10.94,
+      "text": "one time.",
+      "words": [
+        {
+          "id": "caption-word-12-0",
+          "text": "one",
+          "start": 10.29,
+          "end": 10.5
+        },
+        {
+          "id": "caption-word-12-1",
+          "text": "time.",
+          "start": 10.5,
+          "end": 10.82
+        }
+      ]
+    },
+    {
+      "id": "caption-group-13",
+      "frame": 2,
+      "start": 10.94,
+      "end": 11.52,
+      "text": "Fold it.",
+      "words": [
+        {
+          "id": "caption-word-13-0",
+          "text": "Fold",
+          "start": 10.94,
+          "end": 11.2
+        },
+        {
+          "id": "caption-word-13-1",
+          "text": "it.",
+          "start": 11.2,
+          "end": 11.4
+        }
+      ]
+    },
+    {
+      "id": "caption-group-14",
+      "frame": 3,
+      "start": 12.84,
+      "end": 15.18,
+      "text": "Open zine.imurph.com.",
+      "words": [
+        {
+          "id": "caption-word-14-0",
+          "text": "Open",
+          "start": 12.84,
+          "end": 13.22
+        },
+        {
+          "id": "caption-word-14-1",
+          "text": "zine.imurph.com.",
+          "start": 13.22,
+          "end": 15.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-15",
+      "frame": 3,
+      "start": 16.423,
+      "end": 16.923,
+      "text": "Type your",
+      "words": [
+        {
+          "id": "caption-word-15-0",
+          "text": "Type",
+          "start": 16.423,
+          "end": 16.603
+        },
+        {
+          "id": "caption-word-15-1",
+          "text": "your",
+          "start": 16.683,
+          "end": 16.923
+        }
+      ]
+    },
+    {
+      "id": "caption-group-16",
+      "frame": 3,
+      "start": 16.923,
+      "end": 17.483,
+      "text": "eight pages",
+      "words": [
+        {
+          "id": "caption-word-16-0",
+          "text": "eight",
+          "start": 16.923,
+          "end": 17.133
+        },
+        {
+          "id": "caption-word-16-1",
+          "text": "pages",
+          "start": 17.133,
+          "end": 17.483
+        }
+      ]
+    },
+    {
+      "id": "caption-group-17",
+      "frame": 3,
+      "start": 17.483,
+      "end": 18.283,
+      "text": "in the form.",
+      "words": [
+        {
+          "id": "caption-word-17-0",
+          "text": "in",
+          "start": 17.483,
+          "end": 17.623
+        },
+        {
+          "id": "caption-word-17-1",
+          "text": "the",
+          "start": 17.623,
+          "end": 17.833
+        },
+        {
+          "id": "caption-word-17-2",
+          "text": "form.",
+          "start": 17.833,
+          "end": 18.163
+        }
+      ]
+    },
+    {
+      "id": "caption-group-18",
+      "frame": 4,
+      "start": 19.34,
+      "end": 19.78,
+      "text": "The top",
+      "words": [
+        {
+          "id": "caption-word-18-0",
+          "text": "The",
+          "start": 19.34,
+          "end": 19.54
+        },
+        {
+          "id": "caption-word-18-1",
+          "text": "top",
+          "start": 19.54,
+          "end": 19.78
+        }
+      ]
+    },
+    {
+      "id": "caption-group-19",
+      "frame": 4,
+      "start": 19.78,
+      "end": 20.95,
+      "text": "row prints upside",
+      "words": [
+        {
+          "id": "caption-word-19-0",
+          "text": "row",
+          "start": 19.78,
+          "end": 19.95
+        },
+        {
+          "id": "caption-word-19-1",
+          "text": "prints",
+          "start": 20.05,
+          "end": 20.49
+        },
+        {
+          "id": "caption-word-19-2",
+          "text": "upside",
+          "start": 20.49,
+          "end": 20.95
+        }
+      ]
+    },
+    {
+      "id": "caption-group-20",
+      "frame": 4,
+      "start": 20.95,
+      "end": 21.18,
+      "text": "down.",
+      "words": [
+        {
+          "id": "caption-word-20-0",
+          "text": "down.",
+          "start": 20.95,
+          "end": 21.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-21",
+      "frame": 4,
+      "start": 22.387,
+      "end": 23.317,
+      "text": "This is correct.",
+      "words": [
+        {
+          "id": "caption-word-21-0",
+          "text": "This",
+          "start": 22.387,
+          "end": 22.567
+        },
+        {
+          "id": "caption-word-21-1",
+          "text": "is",
+          "start": 22.637,
+          "end": 22.747
+        },
+        {
+          "id": "caption-word-21-2",
+          "text": "correct.",
+          "start": 22.747,
+          "end": 23.197
+        }
+      ]
+    },
+    {
+      "id": "caption-group-22",
+      "frame": 5,
+      "start": 24.36,
+      "end": 24.94,
+      "text": "Print the",
+      "words": [
+        {
+          "id": "caption-word-22-0",
+          "text": "Print",
+          "start": 24.36,
+          "end": 24.7
+        },
+        {
+          "id": "caption-word-22-1",
+          "text": "the",
+          "start": 24.7,
+          "end": 24.86
+        }
+      ]
+    },
+    {
+      "id": "caption-group-23",
+      "frame": 5,
+      "start": 24.94,
+      "end": 26.22,
+      "text": "sheet in landscape",
+      "words": [
+        {
+          "id": "caption-word-23-0",
+          "text": "sheet",
+          "start": 24.94,
+          "end": 25.33
+        },
+        {
+          "id": "caption-word-23-1",
+          "text": "in",
+          "start": 25.34,
+          "end": 25.42
+        },
+        {
+          "id": "caption-word-23-2",
+          "text": "landscape",
+          "start": 25.5,
+          "end": 26.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-24",
+      "frame": 5,
+      "start": 26.22,
+      "end": 27.09,
+      "text": "on US Letter",
+      "words": [
+        {
+          "id": "caption-word-24-0",
+          "text": "on",
+          "start": 26.22,
+          "end": 26.37
+        },
+        {
+          "id": "caption-word-24-1",
+          "text": "US",
+          "start": 26.37,
+          "end": 26.54
+        },
+        {
+          "id": "caption-word-24-2",
+          "text": "Letter",
+          "start": 26.54,
+          "end": 26.97
+        }
+      ]
+    },
+    {
+      "id": "caption-group-25",
+      "frame": 5,
+      "start": 27.46,
+      "end": 27.62,
+      "text": "paper,",
+      "words": [
+        {
+          "id": "caption-word-25-0",
+          "text": "paper,",
+          "start": 27.46,
+          "end": 27.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-26",
+      "frame": 5,
+      "start": 27.62,
+      "end": 28.64,
+      "text": "at 100 percent",
+      "words": [
+        {
+          "id": "caption-word-26-0",
+          "text": "at",
+          "start": 27.62,
+          "end": 27.78
+        },
+        {
+          "id": "caption-word-26-1",
+          "text": "100",
+          "start": 27.78,
+          "end": 28.19
+        },
+        {
+          "id": "caption-word-26-2",
+          "text": "percent",
+          "start": 28.19,
+          "end": 28.6
+        }
+      ]
+    },
+    {
+      "id": "caption-group-27",
+      "frame": 5,
+      "start": 28.64,
+      "end": 29.03,
+      "text": "scale,",
+      "words": [
+        {
+          "id": "caption-word-27-0",
+          "text": "scale,",
+          "start": 28.64,
+          "end": 29.02
+        }
+      ]
+    },
+    {
+      "id": "caption-group-28",
+      "frame": 5,
+      "start": 29.03,
+      "end": 30.26,
+      "text": "with no margins.",
+      "words": [
+        {
+          "id": "caption-word-28-0",
+          "text": "with",
+          "start": 29.03,
+          "end": 29.35
+        },
+        {
+          "id": "caption-word-28-1",
+          "text": "no",
+          "start": 29.35,
+          "end": 29.51
+        },
+        {
+          "id": "caption-word-28-2",
+          "text": "margins.",
+          "start": 29.51,
+          "end": 30.14
+        }
+      ]
+    },
+    {
+      "id": "caption-group-29",
+      "frame": 6,
+      "start": 32.36,
+      "end": 33.11,
+      "text": "Task one.",
+      "words": [
+        {
+          "id": "caption-word-29-0",
+          "text": "Task",
+          "start": 32.36,
+          "end": 32.6
+        },
+        {
+          "id": "caption-word-29-1",
+          "text": "one.",
+          "start": 32.68,
+          "end": 33
+        }
+      ]
+    },
+    {
+      "id": "caption-group-30",
+      "frame": 6,
+      "start": 33.11,
+      "end": 33.62,
+      "text": "Make the",
+      "words": [
+        {
+          "id": "caption-word-30-0",
+          "text": "Make",
+          "start": 33.11,
+          "end": 33.37
+        },
+        {
+          "id": "caption-word-30-1",
+          "text": "the",
+          "start": 33.37,
+          "end": 33.62
+        }
+      ]
+    },
+    {
+      "id": "caption-group-31",
+      "frame": 6,
+      "start": 33.62,
+      "end": 34.36,
+      "text": "fold lines.",
+      "words": [
+        {
+          "id": "caption-word-31-0",
+          "text": "fold",
+          "start": 33.62,
+          "end": 33.95
+        },
+        {
+          "id": "caption-word-31-1",
+          "text": "lines.",
+          "start": 33.95,
+          "end": 34.24
+        }
+      ]
+    },
+    {
+      "id": "caption-group-32",
+      "frame": 6,
+      "start": 34.99,
+      "end": 35.36,
+      "text": "Fold the",
+      "words": [
+        {
+          "id": "caption-word-32-0",
+          "text": "Fold",
+          "start": 34.99,
+          "end": 35.18
+        },
+        {
+          "id": "caption-word-32-1",
+          "text": "the",
+          "start": 35.18,
+          "end": 35.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-33",
+      "frame": 6,
+      "start": 35.36,
+      "end": 35.98,
+      "text": "bottom edge",
+      "words": [
+        {
+          "id": "caption-word-33-0",
+          "text": "bottom",
+          "start": 35.36,
+          "end": 35.63
+        },
+        {
+          "id": "caption-word-33-1",
+          "text": "edge",
+          "start": 35.74,
+          "end": 35.98
+        }
+      ]
+    },
+    {
+      "id": "caption-group-34",
+      "frame": 6,
+      "start": 35.98,
+      "end": 36.28,
+      "text": "to the",
+      "words": [
+        {
+          "id": "caption-word-34-0",
+          "text": "to",
+          "start": 35.98,
+          "end": 36.01
+        },
+        {
+          "id": "caption-word-34-1",
+          "text": "the",
+          "start": 36.12,
+          "end": 36.28
+        }
+      ]
+    },
+    {
+      "id": "caption-group-35",
+      "frame": 6,
+      "start": 36.28,
+      "end": 36.89,
+      "text": "top edge.",
+      "words": [
+        {
+          "id": "caption-word-35-0",
+          "text": "top",
+          "start": 36.28,
+          "end": 36.46
+        },
+        {
+          "id": "caption-word-35-1",
+          "text": "edge.",
+          "start": 36.46,
+          "end": 36.77
+        }
+      ]
+    },
+    {
+      "id": "caption-group-36",
+      "frame": 6,
+      "start": 37.5,
+      "end": 38.28,
+      "text": "Open the sheet.",
+      "words": [
+        {
+          "id": "caption-word-36-0",
+          "text": "Open",
+          "start": 37.5,
+          "end": 37.73
+        },
+        {
+          "id": "caption-word-36-1",
+          "text": "the",
+          "start": 37.73,
+          "end": 37.95
+        },
+        {
+          "id": "caption-word-36-2",
+          "text": "sheet.",
+          "start": 37.95,
+          "end": 38.16
+        }
+      ]
+    },
+    {
+      "id": "caption-group-37",
+      "frame": 6,
+      "start": 39.13,
+      "end": 39.5,
+      "text": "Fold the",
+      "words": [
+        {
+          "id": "caption-word-37-0",
+          "text": "Fold",
+          "start": 39.13,
+          "end": 39.32
+        },
+        {
+          "id": "caption-word-37-1",
+          "text": "the",
+          "start": 39.32,
+          "end": 39.5
+        }
+      ]
+    },
+    {
+      "id": "caption-group-38",
+      "frame": 6,
+      "start": 39.5,
+      "end": 39.93,
+      "text": "sheet in",
+      "words": [
+        {
+          "id": "caption-word-38-0",
+          "text": "sheet",
+          "start": 39.5,
+          "end": 39.77
+        },
+        {
+          "id": "caption-word-38-1",
+          "text": "in",
+          "start": 39.88,
+          "end": 39.93
+        }
+      ]
+    },
+    {
+      "id": "caption-group-39",
+      "frame": 6,
+      "start": 39.93,
+      "end": 40.36,
+      "text": "half two",
+      "words": [
+        {
+          "id": "caption-word-39-0",
+          "text": "half",
+          "start": 39.93,
+          "end": 40.16
+        },
+        {
+          "id": "caption-word-39-1",
+          "text": "two",
+          "start": 40.26,
+          "end": 40.36
+        }
+      ]
+    },
+    {
+      "id": "caption-group-40",
+      "frame": 6,
+      "start": 40.36,
+      "end": 40.71,
+      "text": "times,",
+      "words": [
+        {
+          "id": "caption-word-40-0",
+          "text": "times,",
+          "start": 40.36,
+          "end": 40.71
+        }
+      ]
+    },
+    {
+      "id": "caption-group-41",
+      "frame": 6,
+      "start": 40.71,
+      "end": 41.11,
+      "text": "from left",
+      "words": [
+        {
+          "id": "caption-word-41-0",
+          "text": "from",
+          "start": 40.71,
+          "end": 40.98
+        },
+        {
+          "id": "caption-word-41-1",
+          "text": "left",
+          "start": 40.98,
+          "end": 40.99
+        }
+      ]
+    },
+    {
+      "id": "caption-group-42",
+      "frame": 6,
+      "start": 41.26,
+      "end": 41.61,
+      "text": "to right.",
+      "words": [
+        {
+          "id": "caption-word-42-0",
+          "text": "to",
+          "start": 41.26,
+          "end": 41.38
+        },
+        {
+          "id": "caption-word-42-1",
+          "text": "right.",
+          "start": 41.38,
+          "end": 41.49
+        }
+      ]
+    },
+    {
+      "id": "caption-group-43",
+      "frame": 6,
+      "start": 42.521,
+      "end": 43.321,
+      "text": "Open the sheet.",
+      "words": [
+        {
+          "id": "caption-word-43-0",
+          "text": "Open",
+          "start": 42.521,
+          "end": 42.741
+        },
+        {
+          "id": "caption-word-43-1",
+          "text": "the",
+          "start": 42.741,
+          "end": 42.951
+        },
+        {
+          "id": "caption-word-43-2",
+          "text": "sheet.",
+          "start": 42.951,
+          "end": 43.201
+        }
+      ]
+    },
+    {
+      "id": "caption-group-44",
+      "frame": 6,
+      "start": 44.111,
+      "end": 44.511,
+      "text": "Make sure",
+      "words": [
+        {
+          "id": "caption-word-44-0",
+          "text": "Make",
+          "start": 44.111,
+          "end": 44.281
+        },
+        {
+          "id": "caption-word-44-1",
+          "text": "sure",
+          "start": 44.281,
+          "end": 44.511
+        }
+      ]
+    },
+    {
+      "id": "caption-group-45",
+      "frame": 6,
+      "start": 44.511,
+      "end": 44.911,
+      "text": "that you",
+      "words": [
+        {
+          "id": "caption-word-45-0",
+          "text": "that",
+          "start": 44.511,
+          "end": 44.741
+        },
+        {
+          "id": "caption-word-45-1",
+          "text": "you",
+          "start": 44.741,
+          "end": 44.911
+        }
+      ]
+    },
+    {
+      "id": "caption-group-46",
+      "frame": 6,
+      "start": 44.911,
+      "end": 45.431,
+      "text": "have eight",
+      "words": [
+        {
+          "id": "caption-word-46-0",
+          "text": "have",
+          "start": 44.911,
+          "end": 45.141
+        },
+        {
+          "id": "caption-word-46-1",
+          "text": "eight",
+          "start": 45.241,
+          "end": 45.431
+        }
+      ]
+    },
+    {
+      "id": "caption-group-47",
+      "frame": 6,
+      "start": 45.431,
+      "end": 46.411,
+      "text": "equal panels.",
+      "words": [
+        {
+          "id": "caption-word-47-0",
+          "text": "equal",
+          "start": 45.431,
+          "end": 45.711
+        },
+        {
+          "id": "caption-word-47-1",
+          "text": "panels.",
+          "start": 45.711,
+          "end": 46.291
+        }
+      ]
+    },
+    {
+      "id": "caption-group-48",
+      "frame": 7,
+      "start": 47.33,
+      "end": 48.22,
+      "text": "Task two.",
+      "words": [
+        {
+          "id": "caption-word-48-0",
+          "text": "Task",
+          "start": 47.33,
+          "end": 47.61
+        },
+        {
+          "id": "caption-word-48-1",
+          "text": "two.",
+          "start": 47.73,
+          "end": 48.22
+        }
+      ]
+    },
+    {
+      "id": "caption-group-49",
+      "frame": 7,
+      "start": 48.22,
+      "end": 48.94,
+      "text": "Cut the slot.",
+      "words": [
+        {
+          "id": "caption-word-49-0",
+          "text": "Cut",
+          "start": 48.22,
+          "end": 48.53
+        },
+        {
+          "id": "caption-word-49-1",
+          "text": "the",
+          "start": 48.53,
+          "end": 48.79
+        },
+        {
+          "id": "caption-word-49-2",
+          "text": "slot.",
+          "start": 48.79,
+          "end": 48.82
+        }
+      ]
+    },
+    {
+      "id": "caption-group-50",
+      "frame": 7,
+      "start": 49.831,
+      "end": 50.251,
+      "text": "Fold the",
+      "words": [
+        {
+          "id": "caption-word-50-0",
+          "text": "Fold",
+          "start": 49.831,
+          "end": 50.051
+        },
+        {
+          "id": "caption-word-50-1",
+          "text": "the",
+          "start": 50.051,
+          "end": 50.251
+        }
+      ]
+    },
+    {
+      "id": "caption-group-51",
+      "frame": 7,
+      "start": 50.251,
+      "end": 50.711,
+      "text": "sheet in",
+      "words": [
+        {
+          "id": "caption-word-51-0",
+          "text": "sheet",
+          "start": 50.251,
+          "end": 50.551
+        },
+        {
+          "id": "caption-word-51-1",
+          "text": "in",
+          "start": 50.671,
+          "end": 50.711
+        }
+      ]
+    },
+    {
+      "id": "caption-group-52",
+      "frame": 7,
+      "start": 50.711,
+      "end": 51.231,
+      "text": "half from",
+      "words": [
+        {
+          "id": "caption-word-52-0",
+          "text": "half",
+          "start": 50.711,
+          "end": 50.971
+        },
+        {
+          "id": "caption-word-52-1",
+          "text": "from",
+          "start": 50.971,
+          "end": 51.231
+        }
+      ]
+    },
+    {
+      "id": "caption-group-53",
+      "frame": 7,
+      "start": 51.231,
+      "end": 51.951,
+      "text": "left to right.",
+      "words": [
+        {
+          "id": "caption-word-53-0",
+          "text": "left",
+          "start": 51.231,
+          "end": 51.301
+        },
+        {
+          "id": "caption-word-53-1",
+          "text": "to",
+          "start": 51.301,
+          "end": 51.831
+        },
+        {
+          "id": "caption-word-53-2",
+          "text": "right.",
+          "start": 51.831,
+          "end": 51.831
+        }
+      ]
+    },
+    {
+      "id": "caption-group-54",
+      "frame": 7,
+      "start": 52.762,
+      "end": 53.322,
+      "text": "Caution:",
+      "words": [
+        {
+          "id": "caption-word-54-0",
+          "text": "Caution:",
+          "start": 52.762,
+          "end": 53.202
+        }
+      ]
+    },
+    {
+      "id": "caption-group-55",
+      "frame": 7,
+      "start": 53.873,
+      "end": 54.143,
+      "text": "do not",
+      "words": [
+        {
+          "id": "caption-word-55-0",
+          "text": "do",
+          "start": 53.873,
+          "end": 53.933
+        },
+        {
+          "id": "caption-word-55-1",
+          "text": "not",
+          "start": 53.933,
+          "end": 54.143
+        }
+      ]
+    },
+    {
+      "id": "caption-group-56",
+      "frame": 7,
+      "start": 54.143,
+      "end": 54.613,
+      "text": "cut past",
+      "words": [
+        {
+          "id": "caption-word-56-0",
+          "text": "cut",
+          "start": 54.143,
+          "end": 54.343
+        },
+        {
+          "id": "caption-word-56-1",
+          "text": "past",
+          "start": 54.343,
+          "end": 54.613
+        }
+      ]
+    },
+    {
+      "id": "caption-group-57",
+      "frame": 7,
+      "start": 54.613,
+      "end": 55.703,
+      "text": "the first vertical",
+      "words": [
+        {
+          "id": "caption-word-57-0",
+          "text": "the",
+          "start": 54.613,
+          "end": 54.703
+        },
+        {
+          "id": "caption-word-57-1",
+          "text": "first",
+          "start": 54.703,
+          "end": 55.253
+        },
+        {
+          "id": "caption-word-57-2",
+          "text": "vertical",
+          "start": 55.253,
+          "end": 55.703
+        }
+      ]
+    },
+    {
+      "id": "caption-group-58",
+      "frame": 7,
+      "start": 55.703,
+      "end": 56.413,
+      "text": "fold line.",
+      "words": [
+        {
+          "id": "caption-word-58-0",
+          "text": "fold",
+          "start": 55.703,
+          "end": 55.973
+        },
+        {
+          "id": "caption-word-58-1",
+          "text": "line.",
+          "start": 55.973,
+          "end": 56.293
+        }
+      ]
+    },
+    {
+      "id": "caption-group-59",
+      "frame": 7,
+      "start": 57.104,
+      "end": 57.474,
+      "text": "If the",
+      "words": [
+        {
+          "id": "caption-word-59-0",
+          "text": "If",
+          "start": 57.104,
+          "end": 57.174
+        },
+        {
+          "id": "caption-word-59-1",
+          "text": "the",
+          "start": 57.174,
+          "end": 57.354
+        }
+      ]
+    },
+    {
+      "id": "caption-group-60",
+      "frame": 7,
+      "start": 57.474,
+      "end": 57.684,
+      "text": "cut is",
+      "words": [
+        {
+          "id": "caption-word-60-0",
+          "text": "cut",
+          "start": 57.474,
+          "end": 57.554
+        },
+        {
+          "id": "caption-word-60-1",
+          "text": "is",
+          "start": 57.554,
+          "end": 57.684
+        }
+      ]
+    },
+    {
+      "id": "caption-group-61",
+      "frame": 7,
+      "start": 57.684,
+      "end": 58.284,
+      "text": "too long,",
+      "words": [
+        {
+          "id": "caption-word-61-0",
+          "text": "too",
+          "start": 57.684,
+          "end": 57.784
+        },
+        {
+          "id": "caption-word-61-1",
+          "text": "long,",
+          "start": 57.924,
+          "end": 58.284
+        }
+      ]
+    },
+    {
+      "id": "caption-group-62",
+      "frame": 7,
+      "start": 58.284,
+      "end": 58.634,
+      "text": "the zine",
+      "words": [
+        {
+          "id": "caption-word-62-0",
+          "text": "the",
+          "start": 58.284,
+          "end": 58.494
+        },
+        {
+          "id": "caption-word-62-1",
+          "text": "zine",
+          "start": 58.494,
+          "end": 58.634
+        }
+      ]
+    },
+    {
+      "id": "caption-group-63",
+      "frame": 7,
+      "start": 58.634,
+      "end": 59.614,
+      "text": "will come apart.",
+      "words": [
+        {
+          "id": "caption-word-63-0",
+          "text": "will",
+          "start": 58.634,
+          "end": 59.084
+        },
+        {
+          "id": "caption-word-63-1",
+          "text": "come",
+          "start": 59.084,
+          "end": 59.374
+        },
+        {
+          "id": "caption-word-63-2",
+          "text": "apart.",
+          "start": 59.374,
+          "end": 59.494
+        }
+      ]
+    },
+    {
+      "id": "caption-group-64",
+      "frame": 7,
+      "start": 60.555,
+      "end": 61.075,
+      "text": "Cut along",
+      "words": [
+        {
+          "id": "caption-word-64-0",
+          "text": "Cut",
+          "start": 60.555,
+          "end": 60.725
+        },
+        {
+          "id": "caption-word-64-1",
+          "text": "along",
+          "start": 60.725,
+          "end": 61.075
+        }
+      ]
+    },
+    {
+      "id": "caption-group-65",
+      "frame": 7,
+      "start": 61.075,
+      "end": 61.975,
+      "text": "the horizontal",
+      "words": [
+        {
+          "id": "caption-word-65-0",
+          "text": "the",
+          "start": 61.075,
+          "end": 61.255
+        },
+        {
+          "id": "caption-word-65-1",
+          "text": "horizontal",
+          "start": 61.395,
+          "end": 61.975
+        }
+      ]
+    },
+    {
+      "id": "caption-group-66",
+      "frame": 7,
+      "start": 61.975,
+      "end": 62.555,
+      "text": "fold line",
+      "words": [
+        {
+          "id": "caption-word-66-0",
+          "text": "fold",
+          "start": 61.975,
+          "end": 62.035
+        },
+        {
+          "id": "caption-word-66-1",
+          "text": "line",
+          "start": 62.035,
+          "end": 62.555
+        }
+      ]
+    },
+    {
+      "id": "caption-group-67",
+      "frame": 7,
+      "start": 62.555,
+      "end": 62.995,
+      "text": "from the",
+      "words": [
+        {
+          "id": "caption-word-67-0",
+          "text": "from",
+          "start": 62.555,
+          "end": 62.805
+        },
+        {
+          "id": "caption-word-67-1",
+          "text": "the",
+          "start": 62.805,
+          "end": 62.995
+        }
+      ]
+    },
+    {
+      "id": "caption-group-68",
+      "frame": 7,
+      "start": 62.995,
+      "end": 63.865,
+      "text": "folded edge.",
+      "words": [
+        {
+          "id": "caption-word-68-0",
+          "text": "folded",
+          "start": 62.995,
+          "end": 63.365
+        },
+        {
+          "id": "caption-word-68-1",
+          "text": "edge.",
+          "start": 63.495,
+          "end": 63.745
+        }
+      ]
+    },
+    {
+      "id": "caption-group-69",
+      "frame": 8,
+      "start": 64.84,
+      "end": 65.67,
+      "text": "Task three.",
+      "words": [
+        {
+          "id": "caption-word-69-0",
+          "text": "Task",
+          "start": 64.84,
+          "end": 65.1
+        },
+        {
+          "id": "caption-word-69-1",
+          "text": "three.",
+          "start": 65.23,
+          "end": 65.55
+        }
+      ]
+    },
+    {
+      "id": "caption-group-70",
+      "frame": 8,
+      "start": 66.328,
+      "end": 67.168,
+      "text": "Fold the zine.",
+      "words": [
+        {
+          "id": "caption-word-70-0",
+          "text": "Fold",
+          "start": 66.328,
+          "end": 66.568
+        },
+        {
+          "id": "caption-word-70-1",
+          "text": "the",
+          "start": 66.568,
+          "end": 66.808
+        },
+        {
+          "id": "caption-word-70-2",
+          "text": "zine.",
+          "start": 66.808,
+          "end": 67.048
+        }
+      ]
+    },
+    {
+      "id": "caption-group-71",
+      "frame": 8,
+      "start": 67.816,
+      "end": 68.226,
+      "text": "Fold the",
+      "words": [
+        {
+          "id": "caption-word-71-0",
+          "text": "Fold",
+          "start": 67.816,
+          "end": 68.026
+        },
+        {
+          "id": "caption-word-71-1",
+          "text": "the",
+          "start": 68.026,
+          "end": 68.226
+        }
+      ]
+    },
+    {
+      "id": "caption-group-72",
+      "frame": 8,
+      "start": 68.226,
+      "end": 68.636,
+      "text": "top row",
+      "words": [
+        {
+          "id": "caption-word-72-0",
+          "text": "top",
+          "start": 68.226,
+          "end": 68.416
+        },
+        {
+          "id": "caption-word-72-1",
+          "text": "row",
+          "start": 68.426,
+          "end": 68.636
+        }
+      ]
+    },
+    {
+      "id": "caption-group-73",
+      "frame": 8,
+      "start": 68.636,
+      "end": 68.966,
+      "text": "back,",
+      "words": [
+        {
+          "id": "caption-word-73-0",
+          "text": "back,",
+          "start": 68.636,
+          "end": 68.856
+        }
+      ]
+    },
+    {
+      "id": "caption-group-74",
+      "frame": 8,
+      "start": 68.966,
+      "end": 69.276,
+      "text": "behind the",
+      "words": [
+        {
+          "id": "caption-word-74-0",
+          "text": "behind",
+          "start": 68.966,
+          "end": 69.196
+        },
+        {
+          "id": "caption-word-74-1",
+          "text": "the",
+          "start": 69.196,
+          "end": 69.276
+        }
+      ]
+    },
+    {
+      "id": "caption-group-75",
+      "frame": 8,
+      "start": 69.276,
+      "end": 70.176,
+      "text": "bottom row.",
+      "words": [
+        {
+          "id": "caption-word-75-0",
+          "text": "bottom",
+          "start": 69.276,
+          "end": 69.716
+        },
+        {
+          "id": "caption-word-75-1",
+          "text": "row.",
+          "start": 69.716,
+          "end": 70.056
+        }
+      ]
+    },
+    {
+      "id": "caption-group-76",
+      "frame": 8,
+      "start": 70.714,
+      "end": 71.514,
+      "text": "Hold the two",
+      "words": [
+        {
+          "id": "caption-word-76-0",
+          "text": "Hold",
+          "start": 70.714,
+          "end": 70.974
+        },
+        {
+          "id": "caption-word-76-1",
+          "text": "the",
+          "start": 70.974,
+          "end": 71.194
+        },
+        {
+          "id": "caption-word-76-2",
+          "text": "two",
+          "start": 71.194,
+          "end": 71.394
+        }
+      ]
+    },
+    {
+      "id": "caption-group-77",
+      "frame": 8,
+      "start": 71.714,
+      "end": 71.834,
+      "text": "ends.",
+      "words": [
+        {
+          "id": "caption-word-77-0",
+          "text": "ends.",
+          "start": 71.714,
+          "end": 71.714
+        }
+      ]
+    },
+    {
+      "id": "caption-group-78",
+      "frame": 8,
+      "start": 72.322,
+      "end": 73.352,
+      "text": "Push them slowly",
+      "words": [
+        {
+          "id": "caption-word-78-0",
+          "text": "Push",
+          "start": 72.322,
+          "end": 72.602
+        },
+        {
+          "id": "caption-word-78-1",
+          "text": "them",
+          "start": 72.602,
+          "end": 72.892
+        },
+        {
+          "id": "caption-word-78-2",
+          "text": "slowly",
+          "start": 72.912,
+          "end": 73.352
+        }
+      ]
+    },
+    {
+      "id": "caption-group-79",
+      "frame": 8,
+      "start": 73.352,
+      "end": 73.962,
+      "text": "to the center.",
+      "words": [
+        {
+          "id": "caption-word-79-0",
+          "text": "to",
+          "start": 73.352,
+          "end": 73.492
+        },
+        {
+          "id": "caption-word-79-1",
+          "text": "the",
+          "start": 73.542,
+          "end": 73.722
+        },
+        {
+          "id": "caption-word-79-2",
+          "text": "center.",
+          "start": 73.722,
+          "end": 73.842
+        }
+      ]
+    },
+    {
+      "id": "caption-group-80",
+      "frame": 8,
+      "start": 74.92,
+      "end": 75.72,
+      "text": "The slot opens",
+      "words": [
+        {
+          "id": "caption-word-80-0",
+          "text": "The",
+          "start": 74.92,
+          "end": 75.08
+        },
+        {
+          "id": "caption-word-80-1",
+          "text": "slot",
+          "start": 75.08,
+          "end": 75.35
+        },
+        {
+          "id": "caption-word-80-2",
+          "text": "opens",
+          "start": 75.35,
+          "end": 75.6
+        }
+      ]
+    },
+    {
+      "id": "caption-group-81",
+      "frame": 8,
+      "start": 75.96,
+      "end": 76.06,
+      "text": "into a",
+      "words": [
+        {
+          "id": "caption-word-81-0",
+          "text": "into",
+          "start": 75.96,
+          "end": 75.99
+        },
+        {
+          "id": "caption-word-81-1",
+          "text": "a",
+          "start": 75.99,
+          "end": 76.06
+        }
+      ]
+    },
+    {
+      "id": "caption-group-82",
+      "frame": 8,
+      "start": 76.06,
+      "end": 76.67,
+      "text": "diamond,",
+      "words": [
+        {
+          "id": "caption-word-82-0",
+          "text": "diamond,",
+          "start": 76.06,
+          "end": 76.67
+        }
+      ]
+    },
+    {
+      "id": "caption-group-83",
+      "frame": 8,
+      "start": 76.67,
+      "end": 77.25,
+      "text": "then into",
+      "words": [
+        {
+          "id": "caption-word-83-0",
+          "text": "then",
+          "start": 76.67,
+          "end": 77.01
+        },
+        {
+          "id": "caption-word-83-1",
+          "text": "into",
+          "start": 77.01,
+          "end": 77.25
+        }
+      ]
+    },
+    {
+      "id": "caption-group-84",
+      "frame": 8,
+      "start": 77.25,
+      "end": 77.91,
+      "text": "a plus shape.",
+      "words": [
+        {
+          "id": "caption-word-84-0",
+          "text": "a",
+          "start": 77.25,
+          "end": 77.32
+        },
+        {
+          "id": "caption-word-84-1",
+          "text": "plus",
+          "start": 77.32,
+          "end": 77.59
+        },
+        {
+          "id": "caption-word-84-2",
+          "text": "shape.",
+          "start": 77.6,
+          "end": 77.79
+        }
+      ]
+    },
+    {
+      "id": "caption-group-85",
+      "frame": 8,
+      "start": 78.708,
+      "end": 79.088,
+      "text": "Fold the",
+      "words": [
+        {
+          "id": "caption-word-85-0",
+          "text": "Fold",
+          "start": 78.708,
+          "end": 78.908
+        },
+        {
+          "id": "caption-word-85-1",
+          "text": "the",
+          "start": 78.908,
+          "end": 78.968
+        }
+      ]
+    },
+    {
+      "id": "caption-group-86",
+      "frame": 8,
+      "start": 79.118,
+      "end": 79.518,
+      "text": "four arms",
+      "words": [
+        {
+          "id": "caption-word-86-0",
+          "text": "four",
+          "start": 79.118,
+          "end": 79.318
+        },
+        {
+          "id": "caption-word-86-1",
+          "text": "arms",
+          "start": 79.318,
+          "end": 79.398
+        }
+      ]
+    },
+    {
+      "id": "caption-group-87",
+      "frame": 8,
+      "start": 79.758,
+      "end": 80.168,
+      "text": "together to",
+      "words": [
+        {
+          "id": "caption-word-87-0",
+          "text": "together",
+          "start": 79.758,
+          "end": 80.048
+        },
+        {
+          "id": "caption-word-87-1",
+          "text": "to",
+          "start": 80.048,
+          "end": 80.168
+        }
+      ]
+    },
+    {
+      "id": "caption-group-88",
+      "frame": 8,
+      "start": 80.168,
+      "end": 80.608,
+      "text": "close the",
+      "words": [
+        {
+          "id": "caption-word-88-0",
+          "text": "close",
+          "start": 80.168,
+          "end": 80.448
+        },
+        {
+          "id": "caption-word-88-1",
+          "text": "the",
+          "start": 80.458,
+          "end": 80.488
+        }
+      ]
+    },
+    {
+      "id": "caption-group-89",
+      "frame": 8,
+      "start": 80.708,
+      "end": 81.128,
+      "text": "zine like",
+      "words": [
+        {
+          "id": "caption-word-89-0",
+          "text": "zine",
+          "start": 80.708,
+          "end": 80.888
+        },
+        {
+          "id": "caption-word-89-1",
+          "text": "like",
+          "start": 80.888,
+          "end": 81.128
+        }
+      ]
+    },
+    {
+      "id": "caption-group-90",
+      "frame": 8,
+      "start": 81.128,
+      "end": 81.748,
+      "text": "a book.",
+      "words": [
+        {
+          "id": "caption-word-90-0",
+          "text": "a",
+          "start": 81.128,
+          "end": 81.188
+        },
+        {
+          "id": "caption-word-90-1",
+          "text": "book.",
+          "start": 81.188,
+          "end": 81.628
+        }
+      ]
+    },
+    {
+      "id": "caption-group-91",
+      "frame": 9,
+      "start": 82.83,
+      "end": 83.26,
+      "text": "Make sure",
+      "words": [
+        {
+          "id": "caption-word-91-0",
+          "text": "Make",
+          "start": 82.83,
+          "end": 83.03
+        },
+        {
+          "id": "caption-word-91-1",
+          "text": "sure",
+          "start": 83.03,
+          "end": 83.26
+        }
+      ]
+    },
+    {
+      "id": "caption-group-92",
+      "frame": 9,
+      "start": 83.26,
+      "end": 83.66,
+      "text": "that the",
+      "words": [
+        {
+          "id": "caption-word-92-0",
+          "text": "that",
+          "start": 83.26,
+          "end": 83.43
+        },
+        {
+          "id": "caption-word-92-1",
+          "text": "the",
+          "start": 83.51,
+          "end": 83.66
+        }
+      ]
+    },
+    {
+      "id": "caption-group-93",
+      "frame": 9,
+      "start": 83.66,
+      "end": 84.17,
+      "text": "pages are",
+      "words": [
+        {
+          "id": "caption-word-93-0",
+          "text": "pages",
+          "start": 83.66,
+          "end": 83.96
+        },
+        {
+          "id": "caption-word-93-1",
+          "text": "are",
+          "start": 83.96,
+          "end": 84.17
+        }
+      ]
+    },
+    {
+      "id": "caption-group-94",
+      "frame": 9,
+      "start": 84.17,
+      "end": 84.56,
+      "text": "in the",
+      "words": [
+        {
+          "id": "caption-word-94-0",
+          "text": "in",
+          "start": 84.17,
+          "end": 84.31
+        },
+        {
+          "id": "caption-word-94-1",
+          "text": "the",
+          "start": 84.31,
+          "end": 84.46
+        }
+      ]
+    },
+    {
+      "id": "caption-group-95",
+      "frame": 9,
+      "start": 84.56,
+      "end": 85.29,
+      "text": "sequence one",
+      "words": [
+        {
+          "id": "caption-word-95-0",
+          "text": "sequence",
+          "start": 84.56,
+          "end": 85.08
+        },
+        {
+          "id": "caption-word-95-1",
+          "text": "one",
+          "start": 85.08,
+          "end": 85.29
+        }
+      ]
+    },
+    {
+      "id": "caption-group-96",
+      "frame": 9,
+      "start": 85.29,
+      "end": 85.51,
+      "text": "to eight.",
+      "words": [
+        {
+          "id": "caption-word-96-0",
+          "text": "to",
+          "start": 85.29,
+          "end": 85.32
+        },
+        {
+          "id": "caption-word-96-1",
+          "text": "eight.",
+          "start": 85.32,
+          "end": 85.39
+        }
+      ]
+    },
+    {
+      "id": "caption-group-97",
+      "frame": 9,
+      "start": 86.271,
+      "end": 86.831,
+      "text": "Your zine",
+      "words": [
+        {
+          "id": "caption-word-97-0",
+          "text": "Your",
+          "start": 86.271,
+          "end": 86.541
+        },
+        {
+          "id": "caption-word-97-1",
+          "text": "zine",
+          "start": 86.541,
+          "end": 86.771
+        }
+      ]
+    },
+    {
+      "id": "caption-group-98",
+      "frame": 9,
+      "start": 86.831,
+      "end": 87.931,
+      "text": "is complete.",
+      "words": [
+        {
+          "id": "caption-word-98-0",
+          "text": "is",
+          "start": 86.831,
+          "end": 86.981
+        },
+        {
+          "id": "caption-word-98-1",
+          "text": "complete.",
+          "start": 86.981,
+          "end": 87.811
+        }
+      ]
+    },
+    {
+      "id": "caption-group-99",
+      "frame": 10,
+      "start": 89.92,
+      "end": 91.52,
+      "text": "zine.imurph.com",
+      "words": [
+        {
+          "id": "caption-word-99-0",
+          "text": "zine.imurph.com",
+          "start": 89.92,
+          "end": 91.4
+        }
+      ]
+    }
+  ]
+}
